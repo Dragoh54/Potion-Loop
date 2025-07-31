@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2853908717667146039}
   - component: {fileID: 4284870268389381752}
   - component: {fileID: 6004155346934751230}
-  - component: {fileID: 8100265552573872833}
   - component: {fileID: 8620968593790489356}
+  - component: {fileID: 5387385453068226105}
   m_Layer: 0
   m_Name: ingridient
   m_TagString: Untagged
@@ -154,18 +154,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8100265552573872833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3610594752347827769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd70b1e2b0def364e8551f92dd70ac5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8620968593790489356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,5 +167,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteTransparency: 0.4
-  _ingridientPrefab: {fileID: 3610594752347827769}
-  layerName: cauldron
+--- !u!114 &5387385453068226105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610594752347827769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03720ca9d51a441584e493e886cd34c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cauldronTag: Cauldron

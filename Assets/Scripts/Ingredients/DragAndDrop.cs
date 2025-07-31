@@ -1,22 +1,12 @@
-using System;
 using UnityEngine;
 
-namespace Ingridients
+namespace Ingredients
 {
     public class DragAndDrop : MonoBehaviour
     {
         private bool _isDrag;
         private Vector3 _offset;
         private Vector3 _mousePos;
-        
-        private IIngridient _ingridient;
-        
-        
-
-        private void Start()
-        {
-            _ingridient = GetComponent<Ingridient>();
-        }
 
         private void Update()
         {
@@ -27,7 +17,7 @@ namespace Ingridients
             }
         }
 
-        private void OnMouseDown()
+        protected virtual void OnMouseDown()
         {
             _mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             _offset = transform.position - _mousePos;
@@ -35,10 +25,9 @@ namespace Ingridients
             _isDrag = true;
         }
 
-        private void OnMouseUp()
+        protected virtual void OnMouseUp()
         {
             _isDrag = false;
-            _ingridient.Return();
         }
     }
 }
