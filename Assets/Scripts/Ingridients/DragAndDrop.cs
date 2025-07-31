@@ -10,6 +10,11 @@ namespace Ingridients
         private Vector3 _mousePos;
 
         private Rigidbody2D _rb;
+        
+        private IIngridient _ingridient;
+        
+        [SerializeField]
+        private string layerName = "cauldron";
 
         private void Start()
         {
@@ -18,13 +23,11 @@ namespace Ingridients
 
         private void Update()
         {
-            if (!_isDrag)
+            if (_isDrag)
             {
-                return;
+                _mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                transform.position = _mousePos + _offset;
             }
-            
-            _mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            transform.position = _mousePos + _offset;
         }
 
         private void OnMouseDown()
@@ -33,14 +36,21 @@ namespace Ingridients
             _offset = transform.position - _mousePos;
             
             _isDrag = true;
-            
-            _rb.bodyType = RigidbodyType2D.Static;
         }
 
         private void OnMouseUp()
         {
             _isDrag = false;
-            _rb.bodyType = RigidbodyType2D.Dynamic;
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.layer == LayerMask.NameToLayer(layerName))
+            {
+                Debug.Log(collision.gameObject.name);
+                _ingridient.Use();
+                _ingridient.Refresh();
+            }
         }
     }
 }

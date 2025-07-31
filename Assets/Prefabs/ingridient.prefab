@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3046432764073034442}
   - component: {fileID: 2853908717667146039}
   - component: {fileID: 4284870268389381752}
-  - component: {fileID: 8100265552573872833}
   - component: {fileID: 6004155346934751230}
+  - component: {fileID: 8100265552573872833}
   m_Layer: 0
   m_Name: ingridient
   m_TagString: Untagged
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -126,18 +126,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &8100265552573872833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3610594752347827769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd70b1e2b0def364e8551f92dd70ac5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &6004155346934751230
 Rigidbody2D:
   serializedVersion: 5
@@ -165,3 +153,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8100265552573872833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3610594752347827769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd70b1e2b0def364e8551f92dd70ac5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cauldronLayer:
+    serializedVersion: 2
+    m_Bits: 8
