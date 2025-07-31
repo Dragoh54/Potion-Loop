@@ -10,7 +10,7 @@ namespace Ingredients
         private Vector3 _newPos;
 
         private Quaternion _targetRotation;
-        public float rotationLerpSpeed = 10f;
+        public float rotationLerpSpeed = 2f;
         
         protected virtual void Update()
         {
@@ -22,10 +22,6 @@ namespace Ingredients
                 _newPos = _mousePos + _offset;
 
                 transform.position = _newPos;
-
-                //TODO: Remove if we don't need rotation
-                //dragged rotation idk if we need this just added
-                RotateTowardsMouse(previousPosition);
             }
         }
 
@@ -40,19 +36,6 @@ namespace Ingredients
         protected virtual void OnMouseUp()
         {
             _isDrag = false;
-        }
-
-        private void RotateTowardsMouse(Vector3 previousPosition)
-        {
-            var direction = _newPos - previousPosition;
-
-            if (direction.sqrMagnitude > 0.00001f) 
-            {
-                var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                _targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            }
-                
-            transform.rotation = Quaternion.Lerp(transform.rotation, _targetRotation, Time.deltaTime * rotationLerpSpeed);
         }
     }
 }
