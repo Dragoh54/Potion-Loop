@@ -6,6 +6,7 @@ namespace Ingredients
     public class Ingredient : MonoBehaviour, IIngredient
     {
         private Vector3 _startPosition;
+        private Quaternion _startRotation;
     
         private SpriteRenderer _renderer;
         private Color _originalColor;
@@ -16,6 +17,8 @@ namespace Ingredients
         void Awake()
         {
             _startPosition = transform.position;
+            _startRotation = transform.rotation;
+            
             _renderer = GetComponent<SpriteRenderer>();
             _originalColor = _renderer.color;
         }
@@ -24,12 +27,14 @@ namespace Ingredients
         {
             Debug.Log("Return");
             gameObject.transform.position = _startPosition;
+            gameObject.transform.rotation = _startRotation;
         }
 
         public void Use()
         {
             Debug.Log("Used");
             gameObject.transform.position = _startPosition;
+            gameObject.transform.rotation = _startRotation;
         }
 
         private void OnMouseEnter()
