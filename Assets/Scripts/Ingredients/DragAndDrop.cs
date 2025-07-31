@@ -8,16 +8,11 @@ namespace Ingredients
         private Vector3 _offset;
         private Vector3 _mousePos;
         private Vector3 _newPos;
-
-        private Quaternion _targetRotation;
-        public float rotationLerpSpeed = 2f;
         
         protected virtual void Update()
         {
             if (_isDrag)
             {
-                var previousPosition = transform.position;
-
                 _mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 _newPos = _mousePos + _offset;
 
