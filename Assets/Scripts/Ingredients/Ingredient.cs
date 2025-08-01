@@ -1,5 +1,8 @@
+using System;
+using Assets.Data.Enums;
 using Ingredients.Interfaces;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Ingredients
 {
@@ -10,10 +13,15 @@ namespace Ingredients
     
         private SpriteRenderer _renderer;
         private Color _originalColor;
+
+        [SerializeField]
+        public IngredientType ingredientType; 
     
         [SerializeField]
         private float spriteTransparency = 0.4f;
-    
+        
+        public static event Action<Ingredient> OnIngredientUsed;
+
         void Awake()
         {
             _startPosition = transform.position;
@@ -32,9 +40,10 @@ namespace Ingredients
 
         public void Use()
         {
-            Debug.Log("Used");
             gameObject.transform.position = _startPosition;
             gameObject.transform.rotation = _startRotation;
+            
+            OnIngredientUsed?.Invoke(this);
         }
 
         private void OnMouseEnter()

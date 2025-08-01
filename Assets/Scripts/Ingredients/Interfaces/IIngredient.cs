@@ -1,3 +1,5 @@
+using Assets.Data.Enums;
+
 namespace Ingredients.Interfaces
 {
     public interface IIngredient
