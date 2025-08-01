@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
   m_Name: Recipe2
   m_EditorClassIdentifier: 
+  <Name>k__BackingField: The second
   <Ingredients>k__BackingField: 080000000d0000000300000001000000
   <RequiredFireLevel>k__BackingField: 3
   <AmountOfRotations>k__BackingField: 2

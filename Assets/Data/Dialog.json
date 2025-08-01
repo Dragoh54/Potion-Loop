@@ -1,0 +1,78 @@
+{
+  "allStory": [
+    {
+      "array": [
+        { "text": "First dialog of wolf" },
+        { "text": "Second dialog of wolf" },
+        { "text": "Third dialog of wolf" },
+        { "text": "Fourth dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "Second First dialog of wolf" },
+        { "text": "Second Second dialog of wolf" },
+        { "text": "Second Third dialog of wolf" },
+        { "text": "Second First dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "third First dialog of wolf" },
+        { "text": "third Second dialog of wolf" },
+        { "text": "third Third dialog of wolf" },
+        { "text": "third First dialog of wolf" }
+      ]
+    },
+
+    {
+      "array": [
+        { "text": "First dialog of Witch" },
+        { "text": "Second dialog of wolf" },
+        { "text": "Third dialog of wolf" },
+        { "text": "First dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "Second First dialog ofWitch" },
+        { "text": "Second Second dialog of wolf" },
+        { "text": "Second Third dialog of wolf" },
+        { "text": "Second First dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "third First dialog ofWitch" },
+        { "text": "third Second dialog of wolf" },
+        { "text": "third Third dialog of wolf" },
+        { "text": "third First dialog of wolf" }
+      ]
+    },
+
+    {
+      "array": [
+        { "text": "First dialog of Fairy" },
+        { "text": "Second dialog of wolf" },
+        { "text": "Third dialog of wolf" },
+        { "text": "First dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "Second First dialog ofFairy" },
+        { "text": "Second Second dialog of wolf" },
+        { "text": "Second Third dialog of wolf" },
+        { "text": "Second First dialog of wolf" }
+      ]
+    },
+    {
+      "array": [
+        { "text": "third First dialog of Fairy" },
+        { "text": "third Second dialog of wolf" },
+        { "text": "third Third dialog of wolf" },
+        { "text": "third First dialog of wolf" }
+      ]
+    }
+  ]
+}
