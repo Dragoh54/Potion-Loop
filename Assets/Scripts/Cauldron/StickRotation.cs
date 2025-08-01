@@ -1,30 +1,36 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Cauldron
 {
     public class StickRotation : MonoBehaviour
     {
-        private float _rotationDegree = 0f;
+        private float _angle = 0f;
         private const float FullRotationDegree = 360f;
-        
+        private Vector3 _centerPos;
+        private float _prevAngel;
+
         private int _clockwise = 0;
         private int _counterClockwise = 0;
         
         public TMPro.TMP_Text clockwiseText;
         public TMPro.TMP_Text counterClockwiseText;
         
-        private float _prevAngel;
-
-        private Vector3 _centerPos;
-        
         public Transform cauldronCenter;
         public float rotationSpeedMultiplier = 1f;
+        private float _radius = 0f;
+        
+        public float xOffset = 1.4f;
+        public float yOffset = 0.4f;
 
         private void Start()
         {
             _centerPos = Camera.main.WorldToScreenPoint(transform.position);
             _prevAngel = GetAngle();
+            
+            var dir = transform.position - cauldronCenter.position;
+            _radius = dir.magnitude;
         }
 
         private void Update()
@@ -38,27 +44,26 @@ namespace Cauldron
             var currentAngle = GetAngle();
             var deltaAngle =  Mathf.DeltaAngle(_prevAngel, currentAngle);
             
-            _rotationDegree += deltaAngle;
+            _angle += deltaAngle * rotationSpeedMultiplier;
             
-            if (cauldronCenter != null)
-            {
-                var visualSpeed = deltaAngle * rotationSpeedMultiplier;
-                transform.RotateAround(cauldronCenter.position, Vector3.up, visualSpeed);
-            }
+            var angleRad = _angle * Mathf.Deg2Rad;
+            var x = Mathf.Cos(angleRad) * _radius * xOffset;
+            var y = Mathf.Sin(angleRad) * _radius * yOffset;
             
-            if (_rotationDegree >= FullRotationDegree)
+            var newPosition = new Vector3(x, y, 0) + cauldronCenter.position;
+            //transform.position = newPosition;
+            
+            transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * 10f);
+            
+            if (_angle >= FullRotationDegree)
             {
-                //_clockwise--;
                 _counterClockwise++;
-                
-                _rotationDegree -= FullRotationDegree;
+                _angle -= FullRotationDegree;
             }
-            else if (_rotationDegree <= -FullRotationDegree)
+            else if (_angle <= -FullRotationDegree)
             {
                 _clockwise++;
-                //_counterClockwise--;
-                
-                _rotationDegree += FullRotationDegree;
+                _angle += FullRotationDegree;
             }
             
             _prevAngel = currentAngle;
