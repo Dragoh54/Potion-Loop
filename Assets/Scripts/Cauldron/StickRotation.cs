@@ -9,9 +9,7 @@ namespace Cauldron
         private const float FullRotationDegree = 360f;
         
         private int _clockwise = 0;
-        private int _stickClockwise = 0;
         private int _counterClockwise = 0;
-        private int _stickCounterClockwise = 0;
         
         public TMPro.TMP_Text clockwiseText;
         public TMPro.TMP_Text counterClockwiseText;
@@ -31,8 +29,8 @@ namespace Cauldron
 
         private void Update()
         {
-            clockwiseText.text = $"Clockwise: {_clockwise}, Stick Clockwise: {_stickClockwise}";
-            counterClockwiseText.text = $"Counter Clockwise: {_counterClockwise}, Stick Counter Clockwise: {_stickCounterClockwise}";
+            clockwiseText.text = $"Clockwise: {_clockwise}";
+            counterClockwiseText.text = $"Counter Clockwise: {_counterClockwise}";
         }
 
         private void OnMouseDrag()
@@ -50,21 +48,15 @@ namespace Cauldron
             
             if (_rotationDegree >= FullRotationDegree)
             {
-                _clockwise--;
-                _stickClockwise = _clockwise / 10;
-                
+                //_clockwise--;
                 _counterClockwise++;
-                _stickCounterClockwise = _counterClockwise / 10;
                 
                 _rotationDegree -= FullRotationDegree;
             }
             else if (_rotationDegree <= -FullRotationDegree)
             {
                 _clockwise++;
-                _stickClockwise = _clockwise / 10;
-                
-                _counterClockwise--;
-                _stickCounterClockwise = _counterClockwise / 10;
+                //_counterClockwise--;
                 
                 _rotationDegree += FullRotationDegree;
             }
