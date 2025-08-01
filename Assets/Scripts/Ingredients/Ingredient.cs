@@ -1,3 +1,4 @@
+using System;
 using Assets.Data.Enums;
 using Ingredients.Interfaces;
 using UnityEngine;
@@ -14,11 +15,13 @@ namespace Ingredients
         private Color _originalColor;
 
         [SerializeField]
-        private static IngredientType _ingredientType; 
+        public IngredientType ingredientType; 
     
         [SerializeField]
         private float spriteTransparency = 0.4f;
-    
+        
+        public static event Action<Ingredient> OnIngredientUsed;
+
         void Awake()
         {
             _startPosition = transform.position;
@@ -27,9 +30,6 @@ namespace Ingredients
             _renderer = GetComponent<SpriteRenderer>();
             _originalColor = _renderer.color;
         }
-
-
-        public IngredientType IngredientType { get; } = _ingredientType;
 
         public void Return()
         {
@@ -40,9 +40,10 @@ namespace Ingredients
 
         public void Use()
         {
-            Debug.Log("Used");
             gameObject.transform.position = _startPosition;
             gameObject.transform.rotation = _startRotation;
+            
+            OnIngredientUsed?.Invoke(this);
         }
 
         private void OnMouseEnter()

@@ -1,16 +1,54 @@
+using System.Collections.Generic;
+using System.Linq;
+using Assets.Data.Enums;
+using Ingredients;
 using UnityEngine;
 
 public class PotionManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private List<Ingredient> _usedIngredients = new List<Ingredient>();
+    
+    private void OnEnable()
     {
-        
+        Ingredient.OnIngredientUsed += HandleIngredientUsed;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        Ingredient.OnIngredientUsed -= HandleIngredientUsed;
+    }
+    
+    private void HandleIngredientUsed(Ingredient ingredient)
+    {
+        if (ingredient.ingredientType != IngredientType.Water)
+        {
+            _usedIngredients.Add(ingredient);
+            Debug.Log($"Ingredient used: {ingredient.ingredientType.ToString()}");
+        }
+        else
+        {
+            Debug.Log("Used water");
+            RemoveLastIngredient();
+        }
+    }
+    
+    public List<Ingredient> GetUsedIngredients()
+    {
+        return _usedIngredients;
+    }
+
+    public void ShowIngredients()
+    {
+        Debug.Log(string.Join(", ", _usedIngredients.ConvertAll(i => i.ingredientType.ToString())));
+    }
+
+    public void ResetUsedIngredients()
+    {
+        _usedIngredients.Clear();
+    }
+
+    public void RemoveLastIngredient()
+    {
+        _usedIngredients.RemoveAt(_usedIngredients.Count - 1);
     }
 }
