@@ -51,9 +51,9 @@ namespace Cauldron
             var y = Mathf.Sin(angleRad) * _radius * yOffset;
             
             var newPosition = new Vector3(x, y, 0) + cauldronCenter.position;
-            //transform.position = newPosition;
+            transform.position = newPosition;
             
-            transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * 10f);
+            //transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * 10f);
             
             if (_angle >= FullRotationDegree)
             {
