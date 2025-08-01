@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Ingredients
+namespace DND
 {
     public class DragAndDrop : MonoBehaviour
     {
