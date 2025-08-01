@@ -1,5 +1,7 @@
+using Assets.Data.Enums;
 using Ingredients.Interfaces;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Ingredients
 {
@@ -10,6 +12,9 @@ namespace Ingredients
     
         private SpriteRenderer _renderer;
         private Color _originalColor;
+
+        [SerializeField]
+        private static IngredientType _ingredientType; 
     
         [SerializeField]
         private float spriteTransparency = 0.4f;
@@ -22,6 +27,9 @@ namespace Ingredients
             _renderer = GetComponent<SpriteRenderer>();
             _originalColor = _renderer.color;
         }
+
+
+        public IngredientType IngredientType { get; } = _ingredientType;
 
         public void Return()
         {
