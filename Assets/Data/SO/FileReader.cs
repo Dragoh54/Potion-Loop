@@ -35,7 +35,8 @@ public class GameText
 [System.Serializable]
 public class TextList
 {
-    public List<InnerList> allStory;
+    public List<InnerList> dialogs;
+    public List<GameText> storyCards;
 }
 [System.Serializable]
 public class InnerList

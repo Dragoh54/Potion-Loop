@@ -1,23 +1,25 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [field: SerializeField] public DialogCanvas DialogCanvas { get; private set; }
-    [field: SerializeField] public TextList DialogList { get; private set; }
-    [field: SerializeField] public PotionManager IngredientsManager { get; private set; }
+    [field: SerializeField] public UIManager UIManager { get; private set; }
+    [field: SerializeField] public TextList Text { get; private set; }
+    [field: SerializeField] public IngredientManager IngredientManager { get; private set; }
     [field: SerializeField] public RecipeBook RecipeBook { get; private set; }
     [field: SerializeField] public List<Recipe> PresentRecipes { get; private set; }
 
     private int _currentCustomer = -1;
+    private int _currentEra = -1;
 
     private void Start()
     {
-        DialogList = GetComponent<FileReader>().GetDialogText();
+        UIManager.OnEraChanged.AddListener(ChangeCustomerLogical);
+
+        Text = GetComponent<FileReader>().GetDialogText();
         var recipes = RecipeBook.PresentRecipes;
-        var potionNames = DialogList.allStory.Select(customer => customer.potion).ToList();
+        var potionNames = Text.dialogs.Select(customer => customer.potion).ToList();
 
         foreach (var potion in potionNames)
         {
@@ -26,32 +28,30 @@ public class GameManager : MonoBehaviour
             PresentRecipes.Add(correspondingRecipe);
         }
 
-        ChangeCustomer();
+        ChangeEraLogical();
     }
 
-    private void ChangeCustomer()
+    public void HandlePotionSuccess()
     {
-        _currentCustomer++;
-        StartCoroutine("ShowDialog");
-    }
-
-    private IEnumerator ShowDialog()
-    {
-        var customerDialogs = DialogList.allStory[_currentCustomer].array;
-        for (int i = 0; i < customerDialogs.Count; i++)
+        if ((_currentCustomer + 1) != 0 && (_currentCustomer + 1) % 3 == 0)
         {
-            DialogCanvas.ShowDialog(customerDialogs[i].text);
+            ChangeEraLogical();
 
-            yield return new WaitForSeconds(3.0f);
-
-            if (i != 0 && i % 2 == 1)
-            {
-                DialogCanvas.HideAll();
-
-                yield return new WaitForSeconds(1.0f);
-            }
+            return;
         }
 
-        DialogCanvas.HideAll();
+        ChangeCustomerLogical();
+    }
+
+    private void ChangeCustomerLogical()
+    {
+        _currentCustomer++;
+        UIManager.ChangeCustomer(_currentCustomer, Text.dialogs[_currentCustomer].array);
+    }
+
+    private void ChangeEraLogical()
+    {
+        _currentEra++;
+        UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
     }
 }

@@ -1,5 +1,5 @@
 {
-  "allStory": [
+  "dialogs": [
     {
       "array": [
         { "text": "First dialog of wolf" },
@@ -83,5 +83,11 @@
       ],
       "potion": "The first"
     }
+  ],
+  "storyCards": [
+    { "text": "Story card 1" },
+    { "text": "Story card 2" },
+    { "text": "Story card 3" },
+    { "text": "Story card 4" }
   ]
 }
