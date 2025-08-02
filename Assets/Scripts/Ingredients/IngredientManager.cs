@@ -4,7 +4,7 @@ using Assets.Data.Enums;
 using Ingredients;
 using UnityEngine;
 
-public class PotionManager : MonoBehaviour
+public class IngredientManager : MonoBehaviour
 {
     private List<Ingredient> _usedIngredients = new List<Ingredient>();
     
