@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
-  m_Name: Recipe1
+  m_Name: HellEnergyPotion
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: The first
-  <Ingredients>k__BackingField: 020000000b00000005000000
+  <Name>k__BackingField: The depterrier
+  <Ingredients>k__BackingField: 0c0000000400000002000000
   <RequiredFireLevel>k__BackingField: 2
   <AmountOfRotations>k__BackingField: 3
   <IsRightDirection>k__BackingField: 1

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Ingredients;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -9,6 +10,9 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public IngredientManager IngredientManager { get; private set; }
     [field: SerializeField] public RecipeBook RecipeBook { get; private set; }
     [field: SerializeField] public List<Recipe> PresentRecipes { get; private set; }
+    
+    //Nikita's
+    [field: SerializeField] public List<RewardIngredient> RewardIngredients { get; private set; }
 
     private int _currentCustomer = -1;
     private int _currentEra = -1;
@@ -39,7 +43,8 @@ public class GameManager : MonoBehaviour
 
             return;
         }
-
+        
+        RewardIngredients[_currentCustomer % 3].Award();
         ChangeCustomerLogical();
     }
 
@@ -52,6 +57,9 @@ public class GameManager : MonoBehaviour
     private void ChangeEraLogical()
     {
         _currentEra++;
+        
+        RewardIngredients.ForEach(ingredient => ingredient.Hide());
+        
         UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
     }
 }

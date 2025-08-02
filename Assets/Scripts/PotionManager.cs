@@ -42,11 +42,12 @@ public class PotionManager : MonoBehaviour
         return requiredIngredients.SequenceEqual(usedIngredients);
     }
 
+    //todo: discuss about more stirring
     private bool CheckStirring()
     {
         return CurrentRecipe.IsRightDirection ? 
-            StickManager.GetClockwiseCount() == CurrentRecipe.AmountOfRotations
-            : StickManager.GetCounterClockwiseCount() == CurrentRecipe.AmountOfRotations;
+            StickManager.GetClockwiseCount() >= CurrentRecipe.AmountOfRotations
+            : StickManager.GetCounterClockwiseCount() >= CurrentRecipe.AmountOfRotations;
     }
 
     private bool CheckFire() => FireLevelManager.FireLevel == CurrentRecipe.RequiredFireLevel;
