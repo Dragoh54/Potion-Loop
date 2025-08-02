@@ -41,8 +41,7 @@ public class PotionManager : MonoBehaviour
 
         return requiredIngredients.SequenceEqual(usedIngredients);
     }
-
-    //todo: discuss about more stirring
+    
     private bool CheckStirring()
     {
         return CurrentRecipe.IsRightDirection ? 

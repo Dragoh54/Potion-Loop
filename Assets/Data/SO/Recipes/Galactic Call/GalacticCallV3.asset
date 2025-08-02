@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
-  m_Name: GalacticCallPotion
+  m_Name: GalacticCallV3
   m_EditorClassIdentifier: 
   <Name>k__BackingField: The second
-  <Ingredients>k__BackingField: 06000000010000000d000000
-  <RequiredFireLevel>k__BackingField: 0
-  <AmountOfRotations>k__BackingField: 3
+  <Ingredients>k__BackingField: 06000000030000000d000000090000000b000000
+  <RequiredFireLevel>k__BackingField: 2
+  <AmountOfRotations>k__BackingField: 5
   <IsRightDirection>k__BackingField: 0

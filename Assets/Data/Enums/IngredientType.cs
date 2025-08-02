@@ -5,7 +5,7 @@
         None = 0,
         EntTear = 1,
         Mandrake = 2,
-        MoonRise = 3,
+        MoonRose = 3,
         Sugar = 4,
         Salt = 5,
         DruidicMushRoom = 6,
