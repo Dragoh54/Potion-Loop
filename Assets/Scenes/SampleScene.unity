@@ -3570,6 +3570,8 @@ MonoBehaviour:
   <DialogList>k__BackingField:
     allStory: []
   <IngredientsManager>k__BackingField: {fileID: 0}
+  <RecipeBook>k__BackingField: {fileID: 633320859}
+  <PresentRecipes>k__BackingField: []
 --- !u!4 &1070038375
 Transform:
   m_ObjectHideFlags: 0
