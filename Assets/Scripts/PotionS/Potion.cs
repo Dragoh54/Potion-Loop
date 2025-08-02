@@ -8,16 +8,39 @@ public class Potion : DragAndDrop
 
     public UnityEvent OnConsumed;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private bool _isDragged = false;
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        var isCustomer = collision.gameObject.tag == _customerTag;
-
-        if (isCustomer)
+        if (!_isDragged)
         {
-            OnConsumed?.Invoke();
+            var isCustomer = collision.gameObject.tag == _customerTag;
 
-            Debug.Log("achieved");
-            Destroy(gameObject);
+            if (isCustomer)
+            {
+                OnConsumed?.Invoke();
+
+                Debug.Log("achieved");
+                Destroy(gameObject);
+            }
         }
+    }
+
+    protected override void OnMouseDown()
+    {
+        base.OnMouseDown();
+        
+        _isDragged = true;
+        
+        Debug.Log("dragged");
+    }
+
+    protected override void OnMouseUp()
+    {
+        base.OnMouseUp();
+        
+        _isDragged = false;
+        
+        Debug.Log("released");
     }
 }
