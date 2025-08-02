@@ -6,21 +6,32 @@ public class RecipePage : MonoBehaviour
     [field: SerializeField] public Recipe Recipe { get; private set; }
 
     [field: SerializeField] public TextMeshProUGUI Name { get; private set; }
-    [field: SerializeField] public TextMeshProUGUI FirstIngredient { get; private set; }
-    [field: SerializeField] public TextMeshProUGUI SecondIngredient { get; private set; }
-    [field: SerializeField] public TextMeshProUGUI ThirdIngredient { get; private set; }
+    [field: SerializeField] public TextMeshProUGUI[] Ingredients { get; private set; }
     [field: SerializeField] public TextMeshProUGUI FireLevel { get; private set; }
     [field: SerializeField] public TextMeshProUGUI Rotations { get; private set; }
 
     private void Start()
     {
         Name.text = Recipe.Name;
-        FirstIngredient.text += Recipe.Ingredients[0].ToString();
-        SecondIngredient.text += Recipe.Ingredients[1].ToString();
-        ThirdIngredient.text += Recipe.Ingredients[2].ToString();
-        FireLevel.text += Recipe.RequiredFireLevel.ToString();
-        Rotations.text += ProduceRotationsText();
+
+        var currentIngredient = 0;
+        foreach (var item in Recipe.Ingredients)
+        {
+            SetText(Ingredients[currentIngredient], item.ToString());
+            
+            currentIngredient++;
+        }
+
+        SetText(FireLevel, ProduceFireLevelText());
+        SetText(Rotations, ProduceRotationsText());
     }
+
+    private void SetText(TextMeshProUGUI textElement, string text)
+    {
+        textElement.text = "• " + text;
+    }
+
+    private string ProduceFireLevelText() => Recipe.RequiredFireLevel.ToString() + "fire level";
 
     private string ProduceRotationsText()
     {

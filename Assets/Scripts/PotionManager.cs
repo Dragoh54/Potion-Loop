@@ -1,6 +1,7 @@
 using System.Linq;
 using Cauldron;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PotionManager : MonoBehaviour
 {
@@ -15,16 +16,37 @@ public class PotionManager : MonoBehaviour
     [field: SerializeField] private Recipe Recipe2 { get; set; }
     [field: SerializeField] private Recipe Recipe3 { get; set; }
 
-    public bool IsCorrectPotion()
+    public UnityEvent OnPotionCorrect;
+
+    private void Awake()
+    {
+        FireLevelManager.OnFireLevelChange.AddListener(IsCorrectPotion);
+        StickManager.OnCounterChange.AddListener(IsCorrectPotion);
+        IngredientManager.OnIngredientsChange.AddListener(IsCorrectPotion);
+    }
+
+    public void IsCorrectPotion()
     {
         var isValidIngredients = CheckIngredients();
         var isValidFire = CheckFire();
         var isValidStirring = CheckStirring();
         
-        return isValidIngredients && isValidFire && isValidStirring;
+        var isCorrect = isValidIngredients && isValidFire && isValidStirring;
+
+        if (isCorrect)
+        {
+            OnPotionCorrect?.Invoke();
+            ClearAll();
+        }
     }
     
     public void SetRecipe(Recipe recipe) => CurrentRecipe = recipe;
+
+    public void ClearAll()
+    {
+        IngredientManager.ResetUsedIngredients();
+        StickManager.ClearCounter();
+    }
 
     private bool CheckIngredients()
     {
