@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     [field: SerializeField] public StoryCardCanvas StoryCard { get; private set; }
 
     public UnityEvent OnEraChanged;
+    public UnityEvent OnDialogEnded;
 
     public void ChangeEra(int currentEra, string storyText)
     {
@@ -32,15 +33,25 @@ public class UIManager : MonoBehaviour
 
     public void ChangeCustomer(int currentCustomer, List<GameText> dialogs)
     {
-        CusomerVisualizer.ChangeSprite(currentCustomer);
-        StartCoroutine("ShowDialog", dialogs);
+        StartCoroutine("ChangeSpriteAfterDelay", new Customer { CurrentCustomer = currentCustomer, Dialogs = dialogs});
     }
 
-    private IEnumerator ShowDialog(List<GameText> dialogs)
+    public void EnterShowLastDialog(GameText lastLine)
     {
-        for (int i = 0; i < dialogs.Count; i++)
+        StartCoroutine("ShowLastDialog", lastLine);
+    }
+
+    private IEnumerator ChangeSpriteAfterDelay(Customer customer)
+    {
+        CusomerVisualizer.HideSprite();
+
+        yield return new WaitForSeconds(1.0f);
+
+        CusomerVisualizer.ChangeSprite(customer.CurrentCustomer);
+
+        for (int i = 0; i < customer.Dialogs.Count; i++)
         {
-            DialogCanvas.ShowDialog(dialogs[i].text);
+            DialogCanvas.ShowDialog(customer.Dialogs[i].text);
 
             yield return new WaitForSeconds(3.0f);
 
@@ -54,4 +65,20 @@ public class UIManager : MonoBehaviour
 
         DialogCanvas.HideAll();
     }
+
+    private IEnumerator ShowLastDialog(GameText lastLine)
+    {
+        DialogCanvas.ShowDialog(lastLine.text);
+
+        yield return new WaitForSeconds(3.0f);
+
+        DialogCanvas.HideAll();
+        OnDialogEnded?.Invoke();
+    }
+
+    private struct Customer
+    {
+        public int CurrentCustomer;
+        public List<GameText> Dialogs;
+    };
 }

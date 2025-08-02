@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     {
         PotionManager.OnPotionCorrect.AddListener(HandlePotionSuccess);
         UIManager.OnEraChanged.AddListener(ChangeCustomerLogical);
+        UIManager.OnDialogEnded.AddListener(HandleCustomerChange);
     }
 
     private void Start()
@@ -37,6 +38,12 @@ public class GameManager : MonoBehaviour
         ChangeEraLogical();
     }
 
+    private void HandleOrderEnd()
+    {
+        var dialogs = Text.dialogs[_currentCustomer].array;
+        UIManager.EnterShowLastDialog(dialogs[dialogs.Count - 1]);
+    }
+
     private void HandleCustomerChange()
     {
         if ((_currentCustomer + 1) != 0 && (_currentCustomer + 1) % 3 == 0)
@@ -52,13 +59,15 @@ public class GameManager : MonoBehaviour
 
     private void HandlePotionSuccess()
     {
+        HandleOrderEnd();
         //TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     }
 
     private void ChangeCustomerLogical()
     {
         _currentCustomer++;
-        UIManager.ChangeCustomer(_currentCustomer, Text.dialogs[_currentCustomer].array);
+        var dialogs = Text.dialogs[_currentCustomer].array;
+        UIManager.ChangeCustomer(_currentCustomer, dialogs.Take(dialogs.Count - 1).ToList());
 
         PotionManager.SetRecipe(PresentRecipes[_currentCustomer]);
     }
