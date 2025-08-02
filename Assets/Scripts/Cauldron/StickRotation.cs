@@ -23,10 +23,13 @@ namespace Cauldron
         public float xOffset = 1.4f;
         public float yOffset = 0.4f;
 
+        private Animator _animator;
+
         public UnityEvent OnCounterChange;
 
         private void Start()
         {
+            _animator = GetComponent<Animator>();
             _centerPos = Camera.main.WorldToScreenPoint(transform.position);
             _prevAngel = GetAngle();
             
@@ -42,6 +45,7 @@ namespace Cauldron
 
         private void OnMouseDrag()
         {
+            _animator.SetBool("IsMoving", true);
             var currentAngle = GetAngle();
             var deltaAngle =  Mathf.DeltaAngle(_prevAngel, currentAngle);
             
@@ -72,6 +76,11 @@ namespace Cauldron
             }
             
             _prevAngel = currentAngle;
+        }
+
+        private void OnMouseUp()
+        {
+            _animator.SetBool("IsMoving", false);
         }
 
         private float GetAngle()
