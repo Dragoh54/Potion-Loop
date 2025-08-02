@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         ChangeEraLogical();
     }
 
-    private void HandlePotionSuccess()
+    private void HandleCustomerChange()
     {
         if ((_currentCustomer + 1) != 0 && (_currentCustomer + 1) % 3 == 0)
         {
@@ -45,9 +45,14 @@ public class GameManager : MonoBehaviour
 
             return;
         }
-        
+
         RewardIngredients[_currentCustomer % 3].Award();
         ChangeCustomerLogical();
+    }
+
+    private void HandlePotionSuccess()
+    {
+        //TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     }
 
     private void ChangeCustomerLogical()
