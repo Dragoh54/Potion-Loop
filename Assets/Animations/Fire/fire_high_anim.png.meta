@@ -1,0 +1,2406 @@
+fileFormatVersion: 2
+guid: dd52d9c847901424db31141173a9eef0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3787674909733165016
+    second: fire_high_anim_0
+  - first:
+      213: 2749094121714938832
+    second: fire_high_anim_1
+  - first:
+      213: -7977064097072151416
+    second: fire_high_anim_2
+  - first:
+      213: 8472638374102653621
+    second: fire_high_anim_3
+  - first:
+      213: 2436498985831957347
+    second: fire_high_anim_4
+  - first:
+      213: 4420153575376672907
+    second: fire_high_anim_5
+  - first:
+      213: -6554203834265976901
+    second: fire_high_anim_6
+  - first:
+      213: 1374433705694500769
+    second: fire_high_anim_7
+  - first:
+      213: -4605251460119411034
+    second: fire_high_anim_8
+  - first:
+      213: -7998915319465550954
+    second: fire_high_anim_9
+  - first:
+      213: -65294459326894413
+    second: fire_high_anim_10
+  - first:
+      213: 6705560717721202192
+    second: fire_high_anim_11
+  - first:
+      213: 2365878859260038059
+    second: fire_high_anim_12
+  - first:
+      213: -5059289139181906431
+    second: fire_high_anim_13
+  - first:
+      213: -2322532039593720699
+    second: fire_high_anim_14
+  - first:
+      213: 7903307459049941933
+    second: fire_high_anim_15
+  - first:
+      213: 4704340156299008411
+    second: fire_high_anim_16
+  - first:
+      213: -5600242964584641364
+    second: fire_high_anim_17
+  - first:
+      213: -406286889859414715
+    second: fire_high_anim_18
+  - first:
+      213: -1731776675476298482
+    second: fire_high_anim_19
+  - first:
+      213: -4178386022511710593
+    second: fire_high_anim_20
+  - first:
+      213: -3354075029717185904
+    second: fire_high_anim_21
+  - first:
+      213: -3496481791379927140
+    second: fire_high_anim_22
+  - first:
+      213: 6996900398474520148
+    second: fire_high_anim_23
+  - first:
+      213: 2422229950722944480
+    second: fire_high_anim_24
+  - first:
+      213: -9060304271946689878
+    second: fire_high_anim_25
+  - first:
+      213: 6262291914714320253
+    second: fire_high_anim_26
+  - first:
+      213: 571064941273018790
+    second: fire_high_anim_27
+  - first:
+      213: -1347874534975578384
+    second: fire_high_anim_28
+  - first:
+      213: 6561880540980226029
+    second: fire_high_anim_29
+  - first:
+      213: -7307022435640627745
+    second: fire_high_anim_30
+  - first:
+      213: -7382490711840533964
+    second: fire_high_anim_31
+  - first:
+      213: -1909404939472177357
+    second: fire_high_anim_32
+  - first:
+      213: 4873790527831904814
+    second: fire_high_anim_33
+  - first:
+      213: -5105076459375085344
+    second: fire_high_anim_34
+  - first:
+      213: 3593188996864150212
+    second: fire_high_anim_35
+  - first:
+      213: 3964193034449286181
+    second: fire_high_anim_36
+  - first:
+      213: 3546316981788867993
+    second: fire_high_anim_37
+  - first:
+      213: 6042793527926269314
+    second: fire_high_anim_38
+  - first:
+      213: 959342407130317621
+    second: fire_high_anim_39
+  - first:
+      213: 6468027615580067147
+    second: fire_high_anim_40
+  - first:
+      213: 8121952912386844255
+    second: fire_high_anim_41
+  - first:
+      213: -1970736297713197260
+    second: fire_high_anim_42
+  - first:
+      213: -6066840569451685781
+    second: fire_high_anim_43
+  - first:
+      213: 7576638929345699315
+    second: fire_high_anim_44
+  - first:
+      213: 8192051428303048728
+    second: fire_high_anim_45
+  - first:
+      213: -992531290110847261
+    second: fire_high_anim_46
+  - first:
+      213: 5752158958029461702
+    second: fire_high_anim_47
+  - first:
+      213: -71205167492052998
+    second: fire_high_anim_48
+  - first:
+      213: 3667353302006885250
+    second: fire_high_anim_49
+  - first:
+      213: 4828341567248888423
+    second: fire_high_anim_50
+  - first:
+      213: 1854839276554616451
+    second: fire_high_anim_51
+  - first:
+      213: -3514616211091993314
+    second: fire_high_anim_52
+  - first:
+      213: 1439421301968391147
+    second: fire_high_anim_53
+  - first:
+      213: -8494057715343694942
+    second: fire_high_anim_54
+  - first:
+      213: 5522619971573495977
+    second: fire_high_anim_55
+  - first:
+      213: 7403890030197666340
+    second: fire_high_anim_56
+  - first:
+      213: -3422871068917698679
+    second: fire_high_anim_57
+  - first:
+      213: -8562018586673299732
+    second: fire_high_anim_58
+  - first:
+      213: -8764546724404523341
+    second: fire_high_anim_59
+  - first:
+      213: -3759514114567689179
+    second: fire_high_anim_60
+  - first:
+      213: 8605075486337709729
+    second: fire_high_anim_61
+  - first:
+      213: -174204538755595082
+    second: fire_high_anim_62
+  - first:
+      213: -4594583975826232560
+    second: fire_high_anim_63
+  - first:
+      213: -394370387512731256
+    second: fire_high_anim_64
+  - first:
+      213: 2529396803622111914
+    second: fire_high_anim_65
+  - first:
+      213: -1193275490978021329
+    second: fire_high_anim_66
+  - first:
+      213: 6058446431234481508
+    second: fire_high_anim_67
+  - first:
+      213: 2022362014422006666
+    second: fire_high_anim_68
+  - first:
+      213: 2840641140567189729
+    second: fire_high_anim_69
+  - first:
+      213: -1609123261974381657
+    second: fire_high_anim_70
+  - first:
+      213: 8141148350310161063
+    second: fire_high_anim_71
+  - first:
+      213: 3953386311967445967
+    second: fire_high_anim_72
+  - first:
+      213: 3083752957239722132
+    second: fire_high_anim_73
+  - first:
+      213: 4139760989900150586
+    second: fire_high_anim_74
+  - first:
+      213: 5745807897095816233
+    second: fire_high_anim_75
+  - first:
+      213: -4530199903912304372
+    second: fire_high_anim_76
+  - first:
+      213: -6848441521488047635
+    second: fire_high_anim_77
+  - first:
+      213: -1775345662348120613
+    second: fire_high_anim_78
+  - first:
+      213: 7419012274402273950
+    second: fire_high_anim_79
+  - first:
+      213: -8524762497876039060
+    second: fire_high_anim_80
+  - first:
+      213: -3308156203718004185
+    second: fire_high_anim_81
+  - first:
+      213: 1149248365820080232
+    second: fire_high_anim_82
+  - first:
+      213: -5271641759614807707
+    second: fire_high_anim_83
+  - first:
+      213: -4468711359251465063
+    second: fire_high_anim_84
+  - first:
+      213: -1090505953234909482
+    second: fire_high_anim_85
+  - first:
+      213: -2961767840832277799
+    second: fire_high_anim_86
+  - first:
+      213: -448884365090498032
+    second: fire_high_anim_87
+  - first:
+      213: 5304037660184583364
+    second: fire_high_anim_88
+  - first:
+      213: -1214382865783147756
+    second: fire_high_anim_89
+  - first:
+      213: -4636906251267752158
+    second: fire_high_anim_90
+  - first:
+      213: -2488171980004744661
+    second: fire_high_anim_91
+  - first:
+      213: -834461301901902537
+    second: fire_high_anim_92
+  - first:
+      213: 765363904153705013
+    second: fire_high_anim_93
+  - first:
+      213: -5998803160031607393
+    second: fire_high_anim_94
+  - first:
+      213: -2264598273403332949
+    second: fire_high_anim_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_high_anim_3
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba5bb616bbd49570800000000000000
+      internalID: 8472638374102653621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_4
+      rect:
+        serializedVersion: 2
+        x: 5562
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3630d122bee20d120800000000000000
+      internalID: 2436498985831957347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_5
+      rect:
+        serializedVersion: 2
+        x: 7271
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88dff0024a875d30800000000000000
+      internalID: 4420153575376672907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_6
+      rect:
+        serializedVersion: 2
+        x: 8980
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfb211a65aca05a0800000000000000
+      internalID: -6554203834265976901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_7
+      rect:
+        serializedVersion: 2
+        x: 10689
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a79e3b5c28f21310800000000000000
+      internalID: 1374433705694500769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_8
+      rect:
+        serializedVersion: 2
+        x: 12283
+        y: 280
+        width: 392
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6cb3a523cd610c0800000000000000
+      internalID: -4605251460119411034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_9
+      rect:
+        serializedVersion: 2
+        x: 12664
+        y: 583
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b53d2a5e42ef090800000000000000
+      internalID: -7998915319465550954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_10
+      rect:
+        serializedVersion: 2
+        x: 14107
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bee4020907081ff0800000000000000
+      internalID: -65294459326894413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_11
+      rect:
+        serializedVersion: 2
+        x: 15816
+        y: 502
+        width: 273
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ee597f1ffee0d50800000000000000
+      internalID: 6705560717721202192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_13
+      rect:
+        serializedVersion: 2
+        x: 12905
+        y: 551
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106121b455bc9c9b0800000000000000
+      internalID: -5059289139181906431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_15
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabed5fa2403ead60800000000000000
+      internalID: 7903307459049941933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_16
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99dece827c294140800000000000000
+      internalID: 4704340156299008411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_17
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac4d00f1b0f742b0800000000000000
+      internalID: -5600242964584641364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_18
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545080de9349c5af0800000000000000
+      internalID: -406286889859414715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_19
+      rect:
+        serializedVersion: 2
+        x: 10693
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05adebf94e77f7e0800000000000000
+      internalID: -1731776675476298482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_20
+      rect:
+        serializedVersion: 2
+        x: 14111
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e6bb1fc046306c0800000000000000
+      internalID: -4178386022511710593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_21
+      rect:
+        serializedVersion: 2
+        x: 15820
+        y: 538
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a03b7f78ee371d0800000000000000
+      internalID: -3354075029717185904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_23
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456ecdb57dbf91160800000000000000
+      internalID: 6996900398474520148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_24
+      rect:
+        serializedVersion: 2
+        x: 5548
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed27218e4d7d9120800000000000000
+      internalID: 2422229950722944480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_25
+      rect:
+        serializedVersion: 2
+        x: 7257
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2d9a9a445534280800000000000000
+      internalID: -9060304271946689878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_26
+      rect:
+        serializedVersion: 2
+        x: 8966
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d0950415128e650800000000000000
+      internalID: 6262291914714320253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_27
+      rect:
+        serializedVersion: 2
+        x: 10675
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1f148d984dce700800000000000000
+      internalID: 571064941273018790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_28
+      rect:
+        serializedVersion: 2
+        x: 14093
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5cf470436b4de0800000000000000
+      internalID: -1347874534975578384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_29
+      rect:
+        serializedVersion: 2
+        x: 15802
+        y: 523
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7acafe59b701b50800000000000000
+      internalID: 6561880540980226029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_31
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432df1bcfcf1c8990800000000000000
+      internalID: -7382490711840533964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_32
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3377262f25e6085e0800000000000000
+      internalID: -1909404939472177357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_33
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e229511a9ae23a340800000000000000
+      internalID: 4873790527831904814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_34
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e83dbf02002729b0800000000000000
+      internalID: -5105076459375085344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_35
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca0ee8ea529dd130800000000000000
+      internalID: 3593188996864150212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_36
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5247d67cf84a30730800000000000000
+      internalID: 3964193034449286181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_37
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99df578718c073130800000000000000
+      internalID: 3546316981788867993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_38
+      rect:
+        serializedVersion: 2
+        x: 5488
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285231392b05cd350800000000000000
+      internalID: 6042793527926269314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_39
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53388f226d4405d00800000000000000
+      internalID: 959342407130317621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_40
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b451118e8dc03c950800000000000000
+      internalID: 6468027615580067147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_41
+      rect:
+        serializedVersion: 2
+        x: 5747
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5664415429f6b070800000000000000
+      internalID: 8121952912386844255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_42
+      rect:
+        serializedVersion: 2
+        x: 7197
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f16d457c986a4e0800000000000000
+      internalID: -1970736297713197260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_43
+      rect:
+        serializedVersion: 2
+        x: 7396
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6857e445a04ecba0800000000000000
+      internalID: -6066840569451685781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_44
+      rect:
+        serializedVersion: 2
+        x: 7412
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fddb07a6f0a52960800000000000000
+      internalID: 7576638929345699315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_45
+      rect:
+        serializedVersion: 2
+        x: 7456
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8101cb5ee5300b170800000000000000
+      internalID: 8192051428303048728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_46
+      rect:
+        serializedVersion: 2
+        x: 8906
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e69b70ec02d932f0800000000000000
+      internalID: -992531290110847261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_47
+      rect:
+        serializedVersion: 2
+        x: 9105
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c85de89816c3df40800000000000000
+      internalID: 5752158958029461702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_48
+      rect:
+        serializedVersion: 2
+        x: 9121
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7c6750747030ff0800000000000000
+      internalID: -71205167492052998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_49
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28be9ffc56e05e230800000000000000
+      internalID: 3667353302006885250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_50
+      rect:
+        serializedVersion: 2
+        x: 10615
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7627f12e217b10340800000000000000
+      internalID: 4828341567248888423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_51
+      rect:
+        serializedVersion: 2
+        x: 10814
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38efa72ae76bdb910800000000000000
+      internalID: 1854839276554616451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_52
+      rect:
+        serializedVersion: 2
+        x: 10830
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d48006d23993fc0800000000000000
+      internalID: -3514616211091993314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_53
+      rect:
+        serializedVersion: 2
+        x: 10874
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebc4f93c0ad9f310800000000000000
+      internalID: 1439421301968391147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_54
+      rect:
+        serializedVersion: 2
+        x: 14033
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3e547e28b0f1a80800000000000000
+      internalID: -8494057715343694942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_55
+      rect:
+        serializedVersion: 2
+        x: 14232
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8bd13aa9944ac40800000000000000
+      internalID: 5522619971573495977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_56
+      rect:
+        serializedVersion: 2
+        x: 14248
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422fcf541c6efb660800000000000000
+      internalID: 7403890030197666340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_57
+      rect:
+        serializedVersion: 2
+        x: 14292
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fe231e5e48f70d0800000000000000
+      internalID: -3422871068917698679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_58
+      rect:
+        serializedVersion: 2
+        x: 15742
+        y: 282
+        width: 262
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceebb0d75799d2980800000000000000
+      internalID: -8562018586673299732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_59
+      rect:
+        serializedVersion: 2
+        x: 15941
+        y: 499
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be0e82d0331e5680800000000000000
+      internalID: -8764546724404523341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_60
+      rect:
+        serializedVersion: 2
+        x: 15957
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c2021e4d583dbc0800000000000000
+      internalID: -3759514114567689179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_61
+      rect:
+        serializedVersion: 2
+        x: 16001
+        y: 500
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6b49c209e5b6770800000000000000
+      internalID: 8605075486337709729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1710
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4463d15e9159df0800000000000000
+      internalID: -174204538755595082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_65
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa87e7ddf83a1320800000000000000
+      internalID: 2529396803622111914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_66
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2043116342a07fe0800000000000000
+      internalID: -1193275490978021329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_67
+      rect:
+        serializedVersion: 2
+        x: 5452
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dd6702eece31450800000000000000
+      internalID: 6058446431234481508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_68
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bfdd4898fd01c10800000000000000
+      internalID: 2022362014422006666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_69
+      rect:
+        serializedVersion: 2
+        x: 7161
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e82ed5211cfb6720800000000000000
+      internalID: 2840641140567189729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_70
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abf2323bee3ba9e0800000000000000
+      internalID: -1609123261974381657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_71
+      rect:
+        serializedVersion: 2
+        x: 8870
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa9efb7a4b2bf070800000000000000
+      internalID: 8141148350310161063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_72
+      rect:
+        serializedVersion: 2
+        x: 8885
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc316b0a7ef3dd630800000000000000
+      internalID: 3953386311967445967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_73
+      rect:
+        serializedVersion: 2
+        x: 10579
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4908557e9f0bbca20800000000000000
+      internalID: 3083752957239722132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_74
+      rect:
+        serializedVersion: 2
+        x: 10594
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37940adfa2637930800000000000000
+      internalID: 4139760989900150586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_75
+      rect:
+        serializedVersion: 2
+        x: 11962
+        y: 0
+        width: 1711
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c70ef6d53dbf40800000000000000
+      internalID: 5745807897095816233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_76
+      rect:
+        serializedVersion: 2
+        x: 13997
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c016ccd703f7121c0800000000000000
+      internalID: -4530199903912304372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_77
+      rect:
+        serializedVersion: 2
+        x: 14012
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de15ba688b275f0a0800000000000000
+      internalID: -6848441521488047635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_78
+      rect:
+        serializedVersion: 2
+        x: 15706
+        y: 451
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdda53ab684bc57e0800000000000000
+      internalID: -1775345662348120613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_79
+      rect:
+        serializedVersion: 2
+        x: 15721
+        y: 474
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9aa2002b50a5f660800000000000000
+      internalID: 7419012274402273950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_80
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ae68f9ca5f1b980800000000000000
+      internalID: -8524762497876039060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_82
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860776bbc43f2ff00800000000000000
+      internalID: 1149248365820080232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_83
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5615b0fffbd57d6b0800000000000000
+      internalID: -5271641759614807707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_84
+      rect:
+        serializedVersion: 2
+        x: 5126
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c301ce1b2fbf1c0800000000000000
+      internalID: -4468711359251465063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_85
+      rect:
+        serializedVersion: 2
+        x: 5452
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d60cfffc9ebdd0f0800000000000000
+      internalID: -1090505953234909482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_86
+      rect:
+        serializedVersion: 2
+        x: 6835
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2340447dfa5e6d0800000000000000
+      internalID: -2961767840832277799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_87
+      rect:
+        serializedVersion: 2
+        x: 7161
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01add895c0e35c9f0800000000000000
+      internalID: -448884365090498032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_88
+      rect:
+        serializedVersion: 2
+        x: 8544
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc9892662abb9940800000000000000
+      internalID: 5304037660184583364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_89
+      rect:
+        serializedVersion: 2
+        x: 8870
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413bca7b735a52fe0800000000000000
+      internalID: -1214382865783147756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_90
+      rect:
+        serializedVersion: 2
+        x: 10253
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb564f45666afb0800000000000000
+      internalID: -4636906251267752158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_91
+      rect:
+        serializedVersion: 2
+        x: 10579
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22acbf54cc387dd0800000000000000
+      internalID: -2488171980004744661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_92
+      rect:
+        serializedVersion: 2
+        x: 13671
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73db359fdd56b64f0800000000000000
+      internalID: -834461301901902537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_93
+      rect:
+        serializedVersion: 2
+        x: 13997
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53adcfe6a6e1f9a00800000000000000
+      internalID: 765363904153705013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_94
+      rect:
+        serializedVersion: 2
+        x: 15380
+        y: 0
+        width: 1710
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9543d81f48ffbca0800000000000000
+      internalID: -5998803160031607393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim_95
+      rect:
+        serializedVersion: 2
+        x: 15706
+        y: 462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6d4d26ed78290e0800000000000000
+      internalID: -2264598273403332949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b8923c531834b684b8249eb5c1a5f21d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_high_anim_0: -3787674909733165016
+      fire_high_anim_1: 2749094121714938832
+      fire_high_anim_10: -65294459326894413
+      fire_high_anim_11: 6705560717721202192
+      fire_high_anim_12: 2365878859260038059
+      fire_high_anim_13: -5059289139181906431
+      fire_high_anim_14: -2322532039593720699
+      fire_high_anim_15: 7903307459049941933
+      fire_high_anim_16: 4704340156299008411
+      fire_high_anim_17: -5600242964584641364
+      fire_high_anim_18: -406286889859414715
+      fire_high_anim_19: -1731776675476298482
+      fire_high_anim_2: -7977064097072151416
+      fire_high_anim_20: -4178386022511710593
+      fire_high_anim_21: -3354075029717185904
+      fire_high_anim_22: -3496481791379927140
+      fire_high_anim_23: 6996900398474520148
+      fire_high_anim_24: 2422229950722944480
+      fire_high_anim_25: -9060304271946689878
+      fire_high_anim_26: 6262291914714320253
+      fire_high_anim_27: 571064941273018790
+      fire_high_anim_28: -1347874534975578384
+      fire_high_anim_29: 6561880540980226029
+      fire_high_anim_3: 8472638374102653621
+      fire_high_anim_30: -7307022435640627745
+      fire_high_anim_31: -7382490711840533964
+      fire_high_anim_32: -1909404939472177357
+      fire_high_anim_33: 4873790527831904814
+      fire_high_anim_34: -5105076459375085344
+      fire_high_anim_35: 3593188996864150212
+      fire_high_anim_36: 3964193034449286181
+      fire_high_anim_37: 3546316981788867993
+      fire_high_anim_38: 6042793527926269314
+      fire_high_anim_39: 959342407130317621
+      fire_high_anim_4: 2436498985831957347
+      fire_high_anim_40: 6468027615580067147
+      fire_high_anim_41: 8121952912386844255
+      fire_high_anim_42: -1970736297713197260
+      fire_high_anim_43: -6066840569451685781
+      fire_high_anim_44: 7576638929345699315
+      fire_high_anim_45: 8192051428303048728
+      fire_high_anim_46: -992531290110847261
+      fire_high_anim_47: 5752158958029461702
+      fire_high_anim_48: -71205167492052998
+      fire_high_anim_49: 3667353302006885250
+      fire_high_anim_5: 4420153575376672907
+      fire_high_anim_50: 4828341567248888423
+      fire_high_anim_51: 1854839276554616451
+      fire_high_anim_52: -3514616211091993314
+      fire_high_anim_53: 1439421301968391147
+      fire_high_anim_54: -8494057715343694942
+      fire_high_anim_55: 5522619971573495977
+      fire_high_anim_56: 7403890030197666340
+      fire_high_anim_57: -3422871068917698679
+      fire_high_anim_58: -8562018586673299732
+      fire_high_anim_59: -8764546724404523341
+      fire_high_anim_6: -6554203834265976901
+      fire_high_anim_60: -3759514114567689179
+      fire_high_anim_61: 8605075486337709729
+      fire_high_anim_62: -174204538755595082
+      fire_high_anim_63: -4594583975826232560
+      fire_high_anim_64: -394370387512731256
+      fire_high_anim_65: 2529396803622111914
+      fire_high_anim_66: -1193275490978021329
+      fire_high_anim_67: 6058446431234481508
+      fire_high_anim_68: 2022362014422006666
+      fire_high_anim_69: 2840641140567189729
+      fire_high_anim_7: 1374433705694500769
+      fire_high_anim_70: -1609123261974381657
+      fire_high_anim_71: 8141148350310161063
+      fire_high_anim_72: 3953386311967445967
+      fire_high_anim_73: 3083752957239722132
+      fire_high_anim_74: 4139760989900150586
+      fire_high_anim_75: 5745807897095816233
+      fire_high_anim_76: -4530199903912304372
+      fire_high_anim_77: -6848441521488047635
+      fire_high_anim_78: -1775345662348120613
+      fire_high_anim_79: 7419012274402273950
+      fire_high_anim_8: -4605251460119411034
+      fire_high_anim_80: -8524762497876039060
+      fire_high_anim_81: -3308156203718004185
+      fire_high_anim_82: 1149248365820080232
+      fire_high_anim_83: -5271641759614807707
+      fire_high_anim_84: -4468711359251465063
+      fire_high_anim_85: -1090505953234909482
+      fire_high_anim_86: -2961767840832277799
+      fire_high_anim_87: -448884365090498032
+      fire_high_anim_88: 5304037660184583364
+      fire_high_anim_89: -1214382865783147756
+      fire_high_anim_9: -7998915319465550954
+      fire_high_anim_90: -4636906251267752158
+      fire_high_anim_91: -2488171980004744661
+      fire_high_anim_92: -834461301901902537
+      fire_high_anim_93: 765363904153705013
+      fire_high_anim_94: -5998803160031607393
+      fire_high_anim_95: -2264598273403332949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

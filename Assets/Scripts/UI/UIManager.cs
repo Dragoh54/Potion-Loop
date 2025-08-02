@@ -41,6 +41,11 @@ public class UIManager : MonoBehaviour
         StartCoroutine("ShowLastDialog", lastLine);
     }
 
+    public void ShowTask(string task)
+    {
+        DialogCanvas.ShowDialog(task);
+    }
+
     private IEnumerator ChangeSpriteAfterDelay(Customer customer)
     {
         CusomerVisualizer.HideSprite();
@@ -62,12 +67,11 @@ public class UIManager : MonoBehaviour
                 yield return new WaitForSeconds(1.0f);
             }
         }
-
-        DialogCanvas.HideAll();
     }
 
     private IEnumerator ShowLastDialog(GameText lastLine)
     {
+        DialogCanvas.HideAll();
         DialogCanvas.ShowDialog(lastLine.text);
 
         yield return new WaitForSeconds(3.0f);

@@ -10,9 +10,13 @@ public class FireLevelCanvas : MonoBehaviour
 
     public UnityEvent OnFireLevelChange;
 
+    [SerializeField] private Animator _animator;
+
     public void ChangeFireLevel()
     {
         FireLevel = (FireLevel)(((int)FireLevel + 1) % _numberOfFireLevels);
+        _animator.SetInteger("FireLevel", (int) FireLevel);
+
         OnFireLevelChange?.Invoke();
     }
 }

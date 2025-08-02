@@ -10,6 +10,8 @@ public class IngredientManager : MonoBehaviour
 
     public UnityEvent OnIngredientsChange;
     
+    [SerializeField] private Animator _animator;
+
     private void OnEnable()
     {
         Ingredient.OnIngredientUsed += HandleIngredientUsed;
@@ -22,6 +24,8 @@ public class IngredientManager : MonoBehaviour
     
     private void HandleIngredientUsed(Ingredient ingredient)
     {
+        _animator.Play("Splash");
+
         if (ingredient.ingredientType != IngredientType.Water)
         {
             _usedIngredients.Add(ingredient);

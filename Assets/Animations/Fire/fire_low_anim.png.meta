@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: b877148385dd70a41aaa65748834691c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4324268898868902433
+    second: fire_low_anim_0
+  - first:
+      213: -7141953714816272105
+    second: fire_low_anim_1
+  - first:
+      213: 8329422755504800441
+    second: fire_low_anim_2
+  - first:
+      213: -329903287124362285
+    second: fire_low_anim_3
+  - first:
+      213: 2626712888796261444
+    second: fire_low_anim_4
+  - first:
+      213: -3411732023059924005
+    second: fire_low_anim_5
+  - first:
+      213: -5514963063881711814
+    second: fire_low_anim_6
+  - first:
+      213: 3018842343594896663
+    second: fire_low_anim_7
+  - first:
+      213: 459034613463649916
+    second: fire_low_anim_8
+  - first:
+      213: 5581141023029308558
+    second: fire_low_anim_9
+  - first:
+      213: 7083166789963201514
+    second: fire_low_anim_10
+  - first:
+      213: -7621348777971584259
+    second: fire_low_anim_11
+  - first:
+      213: -1576520654185988598
+    second: fire_low_anim_12
+  - first:
+      213: -1341038593021087419
+    second: fire_low_anim_13
+  - first:
+      213: -8773418782367933001
+    second: fire_low_anim_14
+  - first:
+      213: -6192251238131616029
+    second: fire_low_anim_15
+  - first:
+      213: 5930853664223497187
+    second: fire_low_anim_16
+  - first:
+      213: -8265607541293924586
+    second: fire_low_anim_17
+  - first:
+      213: -6106966966743755497
+    second: fire_low_anim_18
+  - first:
+      213: 733574619875914234
+    second: fire_low_anim_19
+  - first:
+      213: 7150444346174845308
+    second: fire_low_anim_20
+  - first:
+      213: -517933081912398852
+    second: fire_low_anim_21
+  - first:
+      213: 7684323689493324163
+    second: fire_low_anim_22
+  - first:
+      213: -3677576353522919557
+    second: fire_low_anim_23
+  - first:
+      213: -6956044780160877638
+    second: fire_low_anim_24
+  - first:
+      213: -4871668254708179542
+    second: fire_low_anim_25
+  - first:
+      213: -2640229523136009880
+    second: fire_low_anim_26
+  - first:
+      213: 7743644731002545806
+    second: fire_low_anim_27
+  - first:
+      213: 3840730057010193344
+    second: fire_low_anim_28
+  - first:
+      213: 8602306809615094750
+    second: fire_low_anim_29
+  - first:
+      213: -7649727796014893449
+    second: fire_low_anim_30
+  - first:
+      213: 843087926553861964
+    second: fire_low_anim_31
+  - first:
+      213: -2849820457925312291
+    second: fire_low_anim_32
+  - first:
+      213: -7442449747138279273
+    second: fire_low_anim_33
+  - first:
+      213: -4082269421868869049
+    second: fire_low_anim_34
+  - first:
+      213: 2253081556755432959
+    second: fire_low_anim_35
+  - first:
+      213: 7037034363432926940
+    second: fire_low_anim_36
+  - first:
+      213: 4307828509160683101
+    second: fire_low_anim_37
+  - first:
+      213: -272183512368863843
+    second: fire_low_anim_38
+  - first:
+      213: -6401082062677872441
+    second: fire_low_anim_39
+  - first:
+      213: -8563866883725037419
+    second: fire_low_anim_40
+  - first:
+      213: 5540846531641565177
+    second: fire_low_anim_41
+  - first:
+      213: 1938113904497744147
+    second: fire_low_anim_42
+  - first:
+      213: -1027338171998210455
+    second: fire_low_anim_43
+  - first:
+      213: 4883891985005790432
+    second: fire_low_anim_44
+  - first:
+      213: -1183599816793611444
+    second: fire_low_anim_45
+  - first:
+      213: -2755649887831796314
+    second: fire_low_anim_46
+  - first:
+      213: -5844008969211397289
+    second: fire_low_anim_47
+  - first:
+      213: -6640395886418377972
+    second: fire_low_anim_48
+  - first:
+      213: -3763596451037823434
+    second: fire_low_anim_49
+  - first:
+      213: -5581181949386261866
+    second: fire_low_anim_50
+  - first:
+      213: -131460804881886438
+    second: fire_low_anim_51
+  - first:
+      213: 5073946989148418448
+    second: fire_low_anim_52
+  - first:
+      213: -7218193069601958546
+    second: fire_low_anim_53
+  - first:
+      213: -4519925007422031147
+    second: fire_low_anim_54
+  - first:
+      213: 6758027430215801795
+    second: fire_low_anim_55
+  - first:
+      213: -7733724685243400889
+    second: fire_low_anim_56
+  - first:
+      213: -185494243097241000
+    second: fire_low_anim_57
+  - first:
+      213: 6398792912277043941
+    second: fire_low_anim_58
+  - first:
+      213: 8520205118043987573
+    second: fire_low_anim_59
+  - first:
+      213: -8926544463948343945
+    second: fire_low_anim_60
+  - first:
+      213: -5223995894776696167
+    second: fire_low_anim_61
+  - first:
+      213: 723439241284284258
+    second: fire_low_anim_62
+  - first:
+      213: 9170674653799246692
+    second: fire_low_anim_63
+  - first:
+      213: -4092357684366007031
+    second: fire_low_anim_64
+  - first:
+      213: -7008166540697542705
+    second: fire_low_anim_65
+  - first:
+      213: 7787106409772914701
+    second: fire_low_anim_66
+  - first:
+      213: -3888371304354223849
+    second: fire_low_anim_67
+  - first:
+      213: 4900448643626422294
+    second: fire_low_anim_68
+  - first:
+      213: 1195030702125358785
+    second: fire_low_anim_69
+  - first:
+      213: -152499867324835247
+    second: fire_low_anim_70
+  - first:
+      213: 4453795254550545110
+    second: fire_low_anim_71
+  - first:
+      213: -5000814920593635601
+    second: fire_low_anim_72
+  - first:
+      213: 8180287148954537563
+    second: fire_low_anim_73
+  - first:
+      213: -1786448254998220332
+    second: fire_low_anim_74
+  - first:
+      213: -863797324004209093
+    second: fire_low_anim_75
+  - first:
+      213: 1229037671381949622
+    second: fire_low_anim_76
+  - first:
+      213: 3638538132636828481
+    second: fire_low_anim_77
+  - first:
+      213: -2374617137307854330
+    second: fire_low_anim_78
+  - first:
+      213: -6078390161830374884
+    second: fire_low_anim_79
+  - first:
+      213: -1123155847213919234
+    second: fire_low_anim_80
+  - first:
+      213: 8218748315401100016
+    second: fire_low_anim_81
+  - first:
+      213: -5751177099663608130
+    second: fire_low_anim_82
+  - first:
+      213: -585619993689005444
+    second: fire_low_anim_83
+  - first:
+      213: 4413614610782206982
+    second: fire_low_anim_84
+  - first:
+      213: -8954681758987038552
+    second: fire_low_anim_85
+  - first:
+      213: -7712124176563509578
+    second: fire_low_anim_86
+  - first:
+      213: 519455494938746884
+    second: fire_low_anim_87
+  - first:
+      213: 647331667438895229
+    second: fire_low_anim_88
+  - first:
+      213: 7094283045095038827
+    second: fire_low_anim_89
+  - first:
+      213: 1130734612470539010
+    second: fire_low_anim_90
+  - first:
+      213: -6715344778564550285
+    second: fire_low_anim_91
+  - first:
+      213: -3845207244934307279
+    second: fire_low_anim_92
+  - first:
+      213: -1349995044088730541
+    second: fire_low_anim_93
+  - first:
+      213: -958341122743454226
+    second: fire_low_anim_94
+  - first:
+      213: -2115266347266249658
+    second: fire_low_anim_95
+  - first:
+      213: -264705285199468614
+    second: fire_low_anim_96
+  - first:
+      213: 8922100312675985371
+    second: fire_low_anim_97
+  - first:
+      213: -1026805024423827320
+    second: fire_low_anim_98
+  - first:
+      213: -5847277238473393763
+    second: fire_low_anim_99
+  - first:
+      213: -6142786657422062698
+    second: fire_low_anim_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_low_anim_78
+      rect:
+        serializedVersion: 2
+        x: 11962
+        y: 0
+        width: 1711
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 18}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ad53d7b4aab0fd0800000000000000
+      internalID: -2374617137307854330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1710
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72eccee7b57fd7f0800000000000000
+      internalID: -585619993689005444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_85
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a058e652649ab380800000000000000
+      internalID: -8954681758987038552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_87
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400e27c350a753700800000000000000
+      internalID: 519455494938746884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_89
+      rect:
+        serializedVersion: 2
+        x: 5126
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f57f6a7d4f37260800000000000000
+      internalID: 7094283045095038827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_91
+      rect:
+        serializedVersion: 2
+        x: 6835
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c269d08d4ec2a0800000000000000
+      internalID: -6715344778564550285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_93
+      rect:
+        serializedVersion: 2
+        x: 8544
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cad84f8aad34de0800000000000000
+      internalID: -1349995044088730541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_95
+      rect:
+        serializedVersion: 2
+        x: 10253
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c6bddd67015a2e0800000000000000
+      internalID: -2115266347266249658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_97
+      rect:
+        serializedVersion: 2
+        x: 13671
+        y: 0
+        width: 1711
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7247b86faa1db70800000000000000
+      internalID: 8922100312675985371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_low_anim_99
+      rect:
+        serializedVersion: 2
+        x: 15380
+        y: 0
+        width: 1710
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99f091f45c4adea0800000000000000
+      internalID: -5847277238473393763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e5a427bddd70fa4e903d3d00b851d80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_low_anim_0: -4324268898868902433
+      fire_low_anim_1: -7141953714816272105
+      fire_low_anim_10: 7083166789963201514
+      fire_low_anim_100: -6142786657422062698
+      fire_low_anim_11: -7621348777971584259
+      fire_low_anim_12: -1576520654185988598
+      fire_low_anim_13: -1341038593021087419
+      fire_low_anim_14: -8773418782367933001
+      fire_low_anim_15: -6192251238131616029
+      fire_low_anim_16: 5930853664223497187
+      fire_low_anim_17: -8265607541293924586
+      fire_low_anim_18: -6106966966743755497
+      fire_low_anim_19: 733574619875914234
+      fire_low_anim_2: 8329422755504800441
+      fire_low_anim_20: 7150444346174845308
+      fire_low_anim_21: -517933081912398852
+      fire_low_anim_22: 7684323689493324163
+      fire_low_anim_23: -3677576353522919557
+      fire_low_anim_24: -6956044780160877638
+      fire_low_anim_25: -4871668254708179542
+      fire_low_anim_26: -2640229523136009880
+      fire_low_anim_27: 7743644731002545806
+      fire_low_anim_28: 3840730057010193344
+      fire_low_anim_29: 8602306809615094750
+      fire_low_anim_3: -329903287124362285
+      fire_low_anim_30: -7649727796014893449
+      fire_low_anim_31: 843087926553861964
+      fire_low_anim_32: -2849820457925312291
+      fire_low_anim_33: -7442449747138279273
+      fire_low_anim_34: -4082269421868869049
+      fire_low_anim_35: 2253081556755432959
+      fire_low_anim_36: 7037034363432926940
+      fire_low_anim_37: 4307828509160683101
+      fire_low_anim_38: -272183512368863843
+      fire_low_anim_39: -6401082062677872441
+      fire_low_anim_4: 2626712888796261444
+      fire_low_anim_40: -8563866883725037419
+      fire_low_anim_41: 5540846531641565177
+      fire_low_anim_42: 1938113904497744147
+      fire_low_anim_43: -1027338171998210455
+      fire_low_anim_44: 4883891985005790432
+      fire_low_anim_45: -1183599816793611444
+      fire_low_anim_46: -2755649887831796314
+      fire_low_anim_47: -5844008969211397289
+      fire_low_anim_48: -6640395886418377972
+      fire_low_anim_49: -3763596451037823434
+      fire_low_anim_5: -3411732023059924005
+      fire_low_anim_50: -5581181949386261866
+      fire_low_anim_51: -131460804881886438
+      fire_low_anim_52: 5073946989148418448
+      fire_low_anim_53: -7218193069601958546
+      fire_low_anim_54: -4519925007422031147
+      fire_low_anim_55: 6758027430215801795
+      fire_low_anim_56: -7733724685243400889
+      fire_low_anim_57: -185494243097241000
+      fire_low_anim_58: 6398792912277043941
+      fire_low_anim_59: 8520205118043987573
+      fire_low_anim_6: -5514963063881711814
+      fire_low_anim_60: -8926544463948343945
+      fire_low_anim_61: -5223995894776696167
+      fire_low_anim_62: 723439241284284258
+      fire_low_anim_63: 9170674653799246692
+      fire_low_anim_64: -4092357684366007031
+      fire_low_anim_65: -7008166540697542705
+      fire_low_anim_66: 7787106409772914701
+      fire_low_anim_67: -3888371304354223849
+      fire_low_anim_68: 4900448643626422294
+      fire_low_anim_69: 1195030702125358785
+      fire_low_anim_7: 3018842343594896663
+      fire_low_anim_70: -152499867324835247
+      fire_low_anim_71: 4453795254550545110
+      fire_low_anim_72: -5000814920593635601
+      fire_low_anim_73: 8180287148954537563
+      fire_low_anim_74: -1786448254998220332
+      fire_low_anim_75: -863797324004209093
+      fire_low_anim_76: 1229037671381949622
+      fire_low_anim_77: 3638538132636828481
+      fire_low_anim_78: -2374617137307854330
+      fire_low_anim_79: -6078390161830374884
+      fire_low_anim_8: 459034613463649916
+      fire_low_anim_80: -1123155847213919234
+      fire_low_anim_81: 8218748315401100016
+      fire_low_anim_82: -5751177099663608130
+      fire_low_anim_83: -585619993689005444
+      fire_low_anim_84: 4413614610782206982
+      fire_low_anim_85: -8954681758987038552
+      fire_low_anim_86: -7712124176563509578
+      fire_low_anim_87: 519455494938746884
+      fire_low_anim_88: 647331667438895229
+      fire_low_anim_89: 7094283045095038827
+      fire_low_anim_9: 5581141023029308558
+      fire_low_anim_90: 1130734612470539010
+      fire_low_anim_91: -6715344778564550285
+      fire_low_anim_92: -3845207244934307279
+      fire_low_anim_93: -1349995044088730541
+      fire_low_anim_94: -958341122743454226
+      fire_low_anim_95: -2115266347266249658
+      fire_low_anim_96: -264705285199468614
+      fire_low_anim_97: 8922100312675985371
+      fire_low_anim_98: -1026805024423827320
+      fire_low_anim_99: -5847277238473393763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
