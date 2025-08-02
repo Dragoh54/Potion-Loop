@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,6 +6,10 @@ namespace Cauldron
 {
     public class StickRotation : MonoBehaviour
     {
+        private bool _isStritting = false;
+        public float floatAmplitude = 0.05f;
+        public float floatSpeed = 2f;
+        
         private float _angle = 0f;
         private const float FullRotationDegree = 360f;
         private Vector3 _centerPos;
@@ -41,6 +46,18 @@ namespace Cauldron
         {
             clockwiseText.text = $"Clockwise: {_clockwise}";
             counterClockwiseText.text = $"Counter Clockwise: {_counterClockwise}";
+
+            if (!_isStritting)
+            {
+                var basePosition = cauldronCenter.position + new Vector3(
+                    Mathf.Cos(_angle * Mathf.Deg2Rad) * _radius * xOffset,
+                    Mathf.Sin(_angle * Mathf.Deg2Rad) * _radius * yOffset,
+                    0f);
+                
+                var floatOffset = Mathf.Sin(Time.time * floatSpeed) * floatAmplitude;
+                
+                transform.position = basePosition + new Vector3(0f, floatOffset, 0f);
+            }
         }
 
         private void OnMouseDrag()
@@ -78,9 +95,15 @@ namespace Cauldron
             _prevAngel = currentAngle;
         }
 
+        private void OnMouseDown()
+        {
+            _isStritting = true;
+        }
+
         private void OnMouseUp()
         {
             _animator.SetBool("IsMoving", false);
+            _isStritting = false;
         }
 
         private float GetAngle()

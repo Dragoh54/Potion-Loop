@@ -1946,6 +1946,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520524594}
   m_CullTransparentMesh: 1
+--- !u!1 &544803396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3349686078540146617, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+  m_PrefabInstance: {fileID: 3002092691855905296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &544968328
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +5819,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411298583}
   m_CullTransparentMesh: 1
+--- !u!1 &1426635346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426635348}
+  - component: {fileID: 1426635347}
+  m_Layer: 0
+  m_Name: PotionSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1426635347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426635346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904b97a47d860b54e83b6b3378e0128a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potions:
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+  - {fileID: 7066754265558936530, guid: 296a8bc96bd94e3459362df5c9e57ca6, type: 3}
+--- !u!4 &1426635348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426635346}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.46, y: 1.14, z: -0.0098149255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472209926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6359,12 +6418,34 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 664016393473400721, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
   m_PrefabInstance: {fileID: 3002092691855905296}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934319634}
+  m_GameObject: {fileID: 544803396}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98f0fe4916d22bd479665784f6ffa773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1605504668
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544803396}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71431f8a3502d934789168cb453dbe8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1661829033
 GameObject:
   m_ObjectHideFlags: 0
@@ -7388,33 +7469,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911273585}
   m_CullTransparentMesh: 1
---- !u!1 &1934319634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3349686078540146617, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
-  m_PrefabInstance: {fileID: 3002092691855905296}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1934319638
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934319634}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 71431f8a3502d934789168cb453dbe8b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1979558608
 GameObject:
   m_ObjectHideFlags: 0
@@ -8191,13 +8245,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Workspace
       objectReference: {fileID: 0}
+    - target: {fileID: 6160457692420248594, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160457692420248594, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160457692420248594, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757786365300272766, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757786365300272766, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757786365300272766, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3349686078540146617, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1934319638}
+      addedObject: {fileID: 1605504668}
   m_SourcePrefab: {fileID: 100100000, guid: 8f74b4c4886bd8a4a98372d52ebb32df, type: 3}
 --- !u!1001 &5324195831129273588
 PrefabInstance:
@@ -8207,6 +8285,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 186960236434217674, guid: b22f604534811d5468acb51faf06b690, type: 3}
+      propertyPath: potionSpawner
+      value: 
+      objectReference: {fileID: 1426635347}
     - target: {fileID: 186960236434217674, guid: b22f604534811d5468acb51faf06b690, type: 3}
       propertyPath: <UIManager>k__BackingField
       value: 
@@ -8369,3 +8451,4 @@ SceneRoots:
   - {fileID: 2443407458607968022}
   - {fileID: 1827344090}
   - {fileID: 739372861146411155}
+  - {fileID: 1426635348}

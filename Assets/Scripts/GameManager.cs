@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public RecipeBook RecipeBook { get; private set; }
     [field: SerializeField] public List<Recipe> PresentRecipes { get; private set; }
     [field: SerializeField] public List<RewardIngredient> RewardIngredients { get; private set; }
+    [field: SerializeField] public PotionSpawner potionSpawner;
 
     private int _currentCustomer = -1;
     private int _currentEra = -1;
@@ -53,6 +55,7 @@ public class GameManager : MonoBehaviour
     private void HandlePotionSuccess()
     {
         //TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        potionSpawner.SpawnPotion(_currentCustomer);
     }
 
     private void ChangeCustomerLogical()
