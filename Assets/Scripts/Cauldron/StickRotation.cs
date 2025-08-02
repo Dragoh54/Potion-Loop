@@ -74,5 +74,8 @@ namespace Cauldron
             var direction = Input.mousePosition - _centerPos;
             return Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         }
+        
+        public int GetClockwiseCount() => _clockwise;
+        public int GetCounterClockwiseCount() => _counterClockwise;
     }
 }
