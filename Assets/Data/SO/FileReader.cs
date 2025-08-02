@@ -41,4 +41,5 @@ public class TextList
 public class InnerList
 {
     public List<GameText> array;
+    public string potion;
 }

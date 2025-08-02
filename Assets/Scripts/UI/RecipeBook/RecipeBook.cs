@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class RecipeBook : MonoBehaviour
@@ -6,7 +7,24 @@ public class RecipeBook : MonoBehaviour
     [SerializeField] private GameObject RightButton;
     [SerializeField] private GameObject LeftButton;
 
+    [field: SerializeField] public HashSet<Recipe> PresentRecipes { get; private set; } = new HashSet<Recipe>();
+
     private int _currentPageIndex = 0;
+
+    private void Awake()
+    {
+        foreach (var page in pagesGameObjects)
+        {
+            var recipePage = page.GetComponent<RecipePage>();
+
+            if(recipePage is null)
+            {
+                continue;
+            }
+
+            PresentRecipes.Add(recipePage.Recipe);
+        }
+    }
 
     public void MovePage(bool isRight)
     {
