@@ -1,6 +1,5 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Cauldron
 {
@@ -23,6 +22,8 @@ namespace Cauldron
         
         public float xOffset = 1.4f;
         public float yOffset = 0.4f;
+
+        public UnityEvent OnCounterChange;
 
         private void Start()
         {
@@ -59,11 +60,15 @@ namespace Cauldron
             {
                 _counterClockwise++;
                 _angle -= FullRotationDegree;
+
+                OnCounterChange?.Invoke();
             }
             else if (_angle <= -FullRotationDegree)
             {
                 _clockwise++;
                 _angle += FullRotationDegree;
+
+                OnCounterChange?.Invoke();
             }
             
             _prevAngel = currentAngle;
@@ -77,5 +82,11 @@ namespace Cauldron
         
         public int GetClockwiseCount() => _clockwise;
         public int GetCounterClockwiseCount() => _counterClockwise;
+
+        public void ClearCounter()
+        {
+            _counterClockwise = 0;
+            _clockwise = 0;
+        }
     }
 }

@@ -2,10 +2,13 @@ using System.Collections.Generic;
 using Assets.Data.Enums;
 using Ingredients;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class IngredientManager : MonoBehaviour
 {
     private List<Ingredient> _usedIngredients = new List<Ingredient>();
+
+    public UnityEvent OnIngredientsChange;
     
     private void OnEnable()
     {
@@ -29,6 +32,8 @@ public class IngredientManager : MonoBehaviour
             Debug.Log("Used water");
             RemoveLastIngredient();
         }
+
+        OnIngredientsChange?.Invoke();
     }
     
     public List<Ingredient> GetUsedIngredients()
