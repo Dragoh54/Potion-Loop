@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
 
             return;
         }
-
+        
         RewardIngredients[_currentCustomer % 3].Award();
         ChangeCustomerLogical();
     }
