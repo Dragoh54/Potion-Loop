@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     [field: SerializeField] public SpriteVisualizer CusomerVisualizer { get; private set; }
     [field: SerializeField] public SpriteVisualizer WindowVisualizer { get; private set; }
     [field: SerializeField] public StoryCardCanvas StoryCard { get; private set; }
+    [field: SerializeField] public GameObject GameEndScreen { get; private set; }
 
     public UnityEvent OnEraChanged;
     public UnityEvent OnDialogEnded;
@@ -44,6 +45,11 @@ public class UIManager : MonoBehaviour
     public void ShowTask(string task)
     {
         DialogCanvas.ShowDialog(task);
+    }
+
+    public void ShowGameEndScreen()
+    {
+        GameEndScreen.SetActive(true);
     }
 
     private IEnumerator ChangeSpriteAfterDelay(Customer customer)

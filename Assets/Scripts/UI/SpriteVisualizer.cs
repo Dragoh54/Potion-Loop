@@ -13,6 +13,11 @@ public class SpriteVisualizer : MonoBehaviour
 
     public void ChangeSprite(int currentCustomer)
     {
+        if(currentCustomer >= Sprites.Length)
+        {
+            return;
+        }
+
         _spriteRenderer.sprite = Sprites[currentCustomer];
     }
 

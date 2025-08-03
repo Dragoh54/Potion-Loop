@@ -1,6 +1,4 @@
-using UnityEngine;
-
-public interface IAudioMeneger
+public interface IAudioManager
 {
     void PlayMusic(string musicName);
     void StopMusic();

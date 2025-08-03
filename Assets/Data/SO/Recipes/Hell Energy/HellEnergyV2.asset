@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
   m_Name: HellEnergyV2
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: The depterrier
+  <Name>k__BackingField: Hell Energy
+  <Label>k__BackingField: HellV2
   <Ingredients>k__BackingField: 0c000000040000000400000002000000
   <RequiredFireLevel>k__BackingField: 2
   <AmountOfRotations>k__BackingField: 3

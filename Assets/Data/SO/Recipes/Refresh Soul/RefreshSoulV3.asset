@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
   m_Name: RefreshSoulV3
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: The first
+  <Name>k__BackingField: Refresh Soul
+  <Label>k__BackingField: RefreshV3
   <Ingredients>k__BackingField: 0a000000070000000b0000000800000001000000
   <RequiredFireLevel>k__BackingField: 0
   <AmountOfRotations>k__BackingField: 4

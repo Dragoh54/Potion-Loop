@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a31d4ffec1ebad14bba9e58430265942, type: 3}
   m_Name: GalacticCallV1
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: The second
+  <Name>k__BackingField: Galactic Call
+  <Label>k__BackingField: CallV1
   <Ingredients>k__BackingField: 06000000010000000d000000
   <RequiredFireLevel>k__BackingField: 0
   <AmountOfRotations>k__BackingField: 3

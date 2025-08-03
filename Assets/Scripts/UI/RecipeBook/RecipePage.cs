@@ -3,22 +3,38 @@ using UnityEngine;
 
 public class RecipePage : MonoBehaviour
 {
-    [field: SerializeField] public Recipe Recipe { get; private set; }
+    [field: SerializeField] public Recipe CurrentRecipe { get; private set; }
+    [field: SerializeField] public Recipe[] RecipeVersions { get; private set; }
 
     [field: SerializeField] public TextMeshProUGUI Name { get; private set; }
     [field: SerializeField] public TextMeshProUGUI[] Ingredients { get; private set; }
     [field: SerializeField] public TextMeshProUGUI FireLevel { get; private set; }
     [field: SerializeField] public TextMeshProUGUI Rotations { get; private set; }
 
+    private int _currentRecipe = -1;
+
     private void Start()
     {
-        Name.text = Recipe.Name;
+        CurrentRecipe = RecipeVersions[_currentRecipe];
+    }
+
+    public void ChangeRecipe()
+    {
+        _currentRecipe++;
+        CurrentRecipe = RecipeVersions[_currentRecipe];
+
+        DisplayRecipe();
+    }
+
+    private void DisplayRecipe()
+    {
+        Name.text = CurrentRecipe.Name;
 
         var currentIngredient = 0;
-        foreach (var item in Recipe.Ingredients)
+        foreach (var item in CurrentRecipe.Ingredients)
         {
             SetText(Ingredients[currentIngredient], item.ToString());
-            
+
             currentIngredient++;
         }
 
@@ -31,14 +47,14 @@ public class RecipePage : MonoBehaviour
         textElement.text = "• " + text;
     }
 
-    private string ProduceFireLevelText() => Recipe.RequiredFireLevel.ToString() + "fire level";
+    private string ProduceFireLevelText() => CurrentRecipe.RequiredFireLevel.ToString() + "fire level";
 
     private string ProduceRotationsText()
     {
         var rotationsText = "Stir ";
-        rotationsText += Recipe.IsRightDirection ? "clockwise ": "counter-clockwise ";
+        rotationsText += CurrentRecipe.IsRightDirection ? "clockwise ": "counter-clockwise ";
 
-        rotationsText += Recipe.AmountOfRotations + " times";
+        rotationsText += CurrentRecipe.AmountOfRotations + " times";
 
         return rotationsText;
     }

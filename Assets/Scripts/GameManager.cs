@@ -1,6 +1,8 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public List<Recipe> PresentRecipes { get; private set; }
     [field: SerializeField] public List<RewardIngredient> RewardIngredients { get; private set; }
     [field: SerializeField] public PotionSpawner PotionSpawner { get; private set; }
+
+    [SerializeField] private AudioClip[] _customerEntranceSounds;  
 
     private int _currentCustomer = -1;
     private int _currentEra = -1;
@@ -32,7 +36,7 @@ public class GameManager : MonoBehaviour
 
         foreach (var potion in potionNames)
         {
-            var correspondingRecipe = recipes.FirstOrDefault(recipe => recipe.Name == potion);
+            var correspondingRecipe = recipes.FirstOrDefault(recipe => recipe.Label == potion);
 
             PresentRecipes.Add(correspondingRecipe);
         }
@@ -66,6 +70,19 @@ public class GameManager : MonoBehaviour
 
     private void ChangeCustomerLogical()
     {
+        if (_currentCustomer == PresentRecipes.Count - 1)
+        {
+            UIManager.ShowGameEndScreen();
+            StartCoroutine("RestartGame");
+
+            return;
+        }
+
+        foreach (var sound in _customerEntranceSounds)
+        {
+            AudioManager.Instance.PlaySFX(sound);
+        }
+
         _currentCustomer++;
         var dialogs = Text.dialogs[_currentCustomer].array;
         UIManager.ChangeCustomer(_currentCustomer, dialogs.Take(dialogs.Count - 1).ToList());
@@ -78,7 +95,15 @@ public class GameManager : MonoBehaviour
         _currentEra++;
         
         RewardIngredients.ForEach(ingredient => ingredient.Hide());
-        
+        RecipeBook.RecipePages.ForEach(recipePage => recipePage.ChangeRecipe());
+
         UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
+    }
+
+    private IEnumerator RestartGame()
+    {
+        yield return new WaitForSeconds(7.0f);
+
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

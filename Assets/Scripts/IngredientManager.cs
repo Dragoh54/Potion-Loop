@@ -11,6 +11,7 @@ public class IngredientManager : MonoBehaviour
     public UnityEvent OnIngredientsChange;
     
     [SerializeField] private Animator _animator;
+    [SerializeField] private AudioClip _splashSound;
 
     private void OnEnable()
     {
@@ -25,6 +26,7 @@ public class IngredientManager : MonoBehaviour
     private void HandleIngredientUsed(Ingredient ingredient)
     {
         _animator.Play("Splash");
+        AudioManager.Instance.PlaySFX(_splashSound);
 
         if (ingredient.ingredientType != IngredientType.Water)
         {
@@ -57,6 +59,9 @@ public class IngredientManager : MonoBehaviour
 
     public void RemoveLastIngredient()
     {
-        _usedIngredients.RemoveAt(_usedIngredients.Count - 1);
+        if(_usedIngredients.Count > 0)
+        {
+            _usedIngredients.RemoveAt(_usedIngredients.Count - 1);
+        }
     }
 }

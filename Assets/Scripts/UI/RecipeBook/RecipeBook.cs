@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class RecipeBook : MonoBehaviour
@@ -8,6 +9,7 @@ public class RecipeBook : MonoBehaviour
     [SerializeField] private GameObject TitleCardButton;
     [SerializeField] private GameObject LeftButton;
 
+    [field: SerializeField] public List<RecipePage> RecipePages { get; private set; } = new List<RecipePage>();
     [field: SerializeField] public HashSet<Recipe> PresentRecipes { get; private set; } = new HashSet<Recipe>();
 
     private int _currentPageIndex = 0;
@@ -23,7 +25,8 @@ public class RecipeBook : MonoBehaviour
                 continue;
             }
 
-            PresentRecipes.Add(recipePage.Recipe);
+            RecipePages.Add(recipePage);
+            PresentRecipes.AddRange(recipePage.RecipeVersions);
         }
     }
 

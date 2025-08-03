@@ -2,7 +2,6 @@ using System;
 using Assets.Data.Enums;
 using Ingredients.Interfaces;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Ingredients
 {

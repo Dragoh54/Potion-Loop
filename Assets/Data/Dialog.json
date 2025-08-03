@@ -6,11 +6,11 @@
         { "text": "Second dialog of wolf" },
         { "text": "Third dialog of wolf" },
         { "text": "Fourth dialog of wolf" },
-        { "text": "My task is The first" },
+        { "text": "My task is Refresh Soul" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The first"
+      "potion": "RefreshV1"
     },
     {
       "array": [
@@ -18,10 +18,11 @@
         { "text": "Second Second dialog of wolf" },
         { "text": "Second Third dialog of wolf" },
         { "text": "Second First dialog of wolf" },
+        { "text": "My task is Galactic Call" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The second"
+      "potion": "CallV1"
     },
     {
       "array": [
@@ -29,10 +30,11 @@
         { "text": "third Second dialog of wolf" },
         { "text": "third Third dialog of wolf" },
         { "text": "third First dialog of wolf" },
+        { "text": "My task is Hell Energy" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The depterrier"
+      "potion": "HellV1"
     },
 
     {
@@ -41,10 +43,11 @@
         { "text": "Second dialog of wolf" },
         { "text": "Third dialog of wolf" },
         { "text": "First dialog of wolf" },
+        { "text": "My task is Refresh Soul" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The depterrier"
+      "potion": "RefreshV2"
     },
     {
       "array": [
@@ -52,10 +55,11 @@
         { "text": "Second Second dialog of wolf" },
         { "text": "Second Third dialog of wolf" },
         { "text": "Second First dialog of wolf" },
+        { "text": "My task is Galactic Call" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The first"
+      "potion": "CallV2"
     },
     {
       "array": [
@@ -63,10 +67,11 @@
         { "text": "third Second dialog of wolf" },
         { "text": "third Third dialog of wolf" },
         { "text": "third First dialog of wolf" },
+        { "text": "My task is Hell Energy" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The second"
+      "potion": "HellV2"
     },
 
     {
@@ -75,10 +80,11 @@
         { "text": "Second dialog of wolf" },
         { "text": "Third dialog of wolf" },
         { "text": "First dialog of wolf" },
+        { "text": "My task is Refresh Soul" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The depterrier"
+      "potion": "RefreshV3"
     },
     {
       "array": [
@@ -86,10 +92,11 @@
         { "text": "Second Second dialog of wolf" },
         { "text": "Second Third dialog of wolf" },
         { "text": "Second First dialog of wolf" },
+        { "text": "My task is Galactic Call" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The second"
+      "potion": "CallV3"
     },
     {
       "array": [
@@ -97,10 +104,11 @@
         { "text": "third Second dialog of wolf" },
         { "text": "third Third dialog of wolf" },
         { "text": "third First dialog of wolf" },
+        { "text": "My task is Hell Energy" },
 
         { "text": "Thank you chert" }
       ],
-      "potion": "The first"
+      "potion": "HellV3"
     }
   ],
   "storyCards": [
