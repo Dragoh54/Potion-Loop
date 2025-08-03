@@ -64,7 +64,7 @@ public class UIManager : MonoBehaviour
         {
             DialogCanvas.ShowDialog(customer.Dialogs[i].text);
 
-            yield return new WaitForSeconds(3.0f);
+            yield return new WaitForSeconds(5.0f);
 
             if (i != 0 && i % 2 == 1)
             {
@@ -80,7 +80,7 @@ public class UIManager : MonoBehaviour
         DialogCanvas.HideAll();
         DialogCanvas.ShowDialog(lastLine.text);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(5.0f);
 
         DialogCanvas.HideAll();
         OnDialogEnded?.Invoke();

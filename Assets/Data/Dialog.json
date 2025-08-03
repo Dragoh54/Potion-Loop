@@ -2,111 +2,111 @@
   "dialogs": [
     {
       "array": [
-        { "text": "First dialog of wolf" },
-        { "text": "Second dialog of wolf" },
-        { "text": "Third dialog of wolf" },
-        { "text": "Fourth dialog of wolf" },
-        { "text": "My task is Refresh Soul" },
+        { "text": "Hey, it’s me, Werewolf. How have you been?" },
+        { "text": "I’m working as a wood cutter now" },
+        { "text": "Still trying to make ends meet" },
+        { "text": "Providing for 12 wolf-cubs is tough labor!" },
+        { "text": "Have you got anything to Refresh my Soul?" },
 
-        { "text": "Thank you chert" }
+        { "text": "You have my thanks! I found this Moon Stone in the woods today, you can have it" }
       ],
       "potion": "RefreshV1"
     },
     {
       "array": [
-        { "text": "Second First dialog of wolf" },
-        { "text": "Second Second dialog of wolf" },
-        { "text": "Second Third dialog of wolf" },
-        { "text": "Second First dialog of wolf" },
-        { "text": "My task is Galactic Call" },
+        { "text": "Hi… Hi! I’m Fairy! May I come in?" },
+        { "text": "Sorry, I am a little bit lost here" },
+        { "text": "Do you, by any chance, know how to get to the Big City?" },
+        { "text": "I have this dream… To live there, you know? Ah, sorry" },
+        { "text": "This potion, Galactic Call - sounds inspiring. Can I have that?" },
 
-        { "text": "Thank you chert" }
+        { "text": "I am so thankful to you! Here, I had this Mermaid’s Pearl for a while, so you can have it" }
       ],
       "potion": "CallV1"
     },
     {
       "array": [
-        { "text": "third First dialog of wolf" },
-        { "text": "third Second dialog of wolf" },
-        { "text": "third Third dialog of wolf" },
-        { "text": "third First dialog of wolf" },
-        { "text": "My task is Hell Energy" },
+        { "text": "Hi. It’s me, Witch. Are you alone here? Good" },
+        { "text": "Can’t stand some of the folk you welcome here. Rude, hateful" },
+        { "text": "I’m happy you are different. You help your own and my kind alike" },
+        { "text": "There are probably a dozen people with pitchforks gathered outside already" },
+        { "text": "Your potion Hell Energy. Seems appropriate. The potion wouldn’t change their opinions of me, though" },
 
-        { "text": "Thank you chert" }
+        { "text": "Thanks. I have something you could use. It’s a Wind Shard, take it" }
       ],
       "potion": "HellV1"
     },
 
     {
       "array": [
-        { "text": "First dialog of Witch" },
-        { "text": "Second dialog of wolf" },
-        { "text": "Third dialog of wolf" },
-        { "text": "First dialog of wolf" },
-        { "text": "My task is Refresh Soul" },
+        { "text": "It’s me again" },
+        { "text": "The work in the docks is breaking me" },
+        { "text": "A huge crate fell on me today" },
+        { "text": "Don’t know, would I survive, if I weren’t a werewolf" },
+        { "text": "Can I have a Refresh Soul again? Hope it would ease my mind a little" },
 
-        { "text": "Thank you chert" }
+        { "text": "Thank you! This Icefire stone is yours. Don’t ask where I got it from" }
       ],
       "potion": "RefreshV2"
     },
     {
       "array": [
-        { "text": "Second First dialog ofWitch" },
-        { "text": "Second Second dialog of wolf" },
-        { "text": "Second Third dialog of wolf" },
-        { "text": "Second First dialog of wolf" },
-        { "text": "My task is Galactic Call" },
+        { "text": "Fine night to you. I wish it would be so for me…" },
+        { "text": "I fled from my husband's house again" },
+        { "text": "His house in the Big City sure is beautiful, but I feel like a prisoner there!" },
+        { "text": "But who am I anyway? Is that who I dreamed to become?" },
+        { "text": "Would this Galactic Call of yours help me find myself?" },
 
-        { "text": "Thank you chert" }
+        { "text": "I found this Frozen Memory among my old things, maybe it would help" }
       ],
       "potion": "CallV2"
     },
     {
       "array": [
-        { "text": "third First dialog ofWitch" },
-        { "text": "third Second dialog of wolf" },
-        { "text": "third Third dialog of wolf" },
-        { "text": "third First dialog of wolf" },
-        { "text": "My task is Hell Energy" },
+        { "text": "Night. Hope no one noticed me sneaking in here" },
+        { "text": "Been rough couple of years, you know" },
+        { "text": "It’s a miracle that I managed to get into high society" },
+        { "text": "Although everyone seems to have an obligation to inform me that I do not belong" },
+        { "text": "Hell Energy. Should be of use, I guess" },
 
-        { "text": "Thank you chert" }
+        { "text": "Right. Take this Angel’s Feather, could get me in trouble if I keep it to myself" }
       ],
       "potion": "HellV2"
     },
 
     {
       "array": [
-        { "text": "First dialog of Fairy" },
-        { "text": "Second dialog of wolf" },
-        { "text": "Third dialog of wolf" },
-        { "text": "First dialog of wolf" },
-        { "text": "My task is Refresh Soul" },
+        { "text": "Mhm, hi! Finally found some time to visit you!" },
+        { "text": "As you can see I’m a busy wolf now!" },
+        { "text": "But it sure pays. Now that we can afford it, my cubs all around the world now" },
+        { "text": "All thanks to you! I hope you will visit us out there someday" },
+        { "text": "Cook me Refresh Soul one last time, like in the old times!" },
 
-        { "text": "Thank you chert" }
+        { "text": "Thanks, again. Here is a photo of me with my cubs. I want you to have this" }
       ],
       "potion": "RefreshV3"
     },
     {
       "array": [
-        { "text": "Second First dialog ofFairy" },
-        { "text": "Second Second dialog of wolf" },
-        { "text": "Second Third dialog of wolf" },
-        { "text": "Second First dialog of wolf" },
-        { "text": "My task is Galactic Call" },
+        { "text": "Hey, friend! Though I came by for a moment!" },
+        { "text": "It’s so inspiring here. I think I understand why you are spending so much time here! Ha-ha-ha!" },
+        { "text": "Speaking of inspiration… I’m a popular artist now! So, I made something of myself after all" },
+        { "text": "Not without your words and potions! Visit my Big City studio, I’d be happy to show you around!" },
+        { "text": "Also could you make me a Galactic Call once again?" },
 
-        { "text": "Thank you chert" }
+        { "text": "Thank you, friend! Here is my drawing of you. I imagined you leaving this place, happy and free" }
       ],
       "potion": "CallV3"
     },
     {
       "array": [
-        { "text": "third First dialog of Fairy" },
-        { "text": "third Second dialog of wolf" },
-        { "text": "third Third dialog of wolf" },
-        { "text": "third First dialog of wolf" },
-        { "text": "My task is Hell Energy" },
+        { "text": "‘Sup. Figured you would still be here" },
+        { "text": "Thanks, I guess. Don’t know what it is in your potions, but they make me feel better" },
+        { "text": "I’m my own person now. It took me some time to stop being afraid. Of everyone" },
+        { "text": "I worry about YOU though. Are you sure it’s worth it? That whole immortality thing" },
+        { "text": "Anyway… Get me some of that Hell Energy" },
 
-        { "text": "Thank you chert" }
+        { "text": "Rad. If you decide to get out, come join my biker-club. Some great wheels we got there!" }
       ],
       "potion": "HellV3"
     }
@@ -117,15 +117,15 @@
       "text": "\\t1311 AD.\\n\\tI am a potion craftsman. Some even say that I am the best there is. Although I am a human, my most common customers are magical creatures of every kind. Fair to say, they are the ones who need it the most.\\n\\tMy ingredients are not easy to come by so one night I’ve ventured outside of town to resupply. There I stumbled upon an old house. It was somewhat odd, especially the sign nailed to a wall: \"Enter at your own risk. The first one to go through that door – becomes a new keeper of this place\".\\n\\tI dared to enter.\\n\\tAfter a while I figured that the house was stuck in time. Centuries go by but I didn’t age for a second. I could live forever, but the catch is that if I leave through that door, I may never come back inside again.\\n\\tNow I am trying to produce a recipe for elixir of life, so I could leave the house and still live forever. My old customers still visit me, bring me supplies, and in return I give them potions."
     },
     {
-      "time": 5,
+      "time": 15,
       "text": "\t1867 AD.\n\tHelp from my customers was invaluable, but all my experiments failed. The idea of death haunts me. I still haven’t tried everything though so I will keep on trying."
     },
     {
-      "time": 10,
+      "time": 15,
       "text": "\t2025 AD.\n\tTime goes by but all my studies are fruitless. I notice that with each passing day I am more and more drawn to the only window in the house, staring at the lights of the city in which I cannot recognize my home town anymore.\n\tI start to wonder if what I was doing for the last centuries was worth it. Maybe death is what gives life meaning after all."
     },
     {
-      "time": 10,
+      "time": 15,
       "text": "\tI left the house.\n\n\tDoor closed shut after me, but I didn’t even turn around.\n\tMy eyes were fixed on the city below me.\n\tIn that fleeting moment I felt more alive than I did for the last 7 centuries."
     }
   ]
