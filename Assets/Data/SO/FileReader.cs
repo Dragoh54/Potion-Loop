@@ -16,6 +16,13 @@ public class GameText
     public string text;
 }
 
+[System.Serializable]
+public class StoryText
+{
+    public string text;
+    public float time;
+}
+
 //[System.Serializable]
 //public class AllStory
 //{
@@ -36,7 +43,7 @@ public class GameText
 public class TextList
 {
     public List<InnerList> dialogs;
-    public List<GameText> storyCards;
+    public List<StoryText> storyCards;
 }
 [System.Serializable]
 public class InnerList

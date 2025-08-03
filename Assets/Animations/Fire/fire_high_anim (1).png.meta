@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 7c9f74dba857cc243a8376167a7e3b91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5977899039348984109
+    second: fire_high_anim (1)_0
+  - first:
+      213: 3900138594965116717
+    second: fire_high_anim (1)_1
+  - first:
+      213: -3023528254204614418
+    second: fire_high_anim (1)_2
+  - first:
+      213: 4718051866218914395
+    second: fire_high_anim (1)_3
+  - first:
+      213: -7171490826079948409
+    second: fire_high_anim (1)_4
+  - first:
+      213: 3280078014757124728
+    second: fire_high_anim (1)_5
+  - first:
+      213: 1708468258951193476
+    second: fire_high_anim (1)_6
+  - first:
+      213: -6426214914634501912
+    second: fire_high_anim (1)_7
+  - first:
+      213: -4440396138648825412
+    second: fire_high_anim (1)_8
+  - first:
+      213: 6768555675374840133
+    second: fire_high_anim (1)_9
+  - first:
+      213: -1287786896238804142
+    second: fire_high_anim (1)_10
+  - first:
+      213: 7800958488014824208
+    second: fire_high_anim (1)_11
+  - first:
+      213: -2292709457030488314
+    second: fire_high_anim (1)_12
+  - first:
+      213: -5293935060108693033
+    second: fire_high_anim (1)_13
+  - first:
+      213: 5421272063066818456
+    second: fire_high_anim (1)_14
+  - first:
+      213: -6957666671672169102
+    second: fire_high_anim (1)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_high_anim (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1702
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d67478fe7c3a0da0800000000000000
+      internalID: -5977899039348984109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27dfa76363102630800000000000000
+      internalID: 3900138594965116717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_2
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8e6c772154a06d0800000000000000
+      internalID: -3023528254204614418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_3
+      rect:
+        serializedVersion: 2
+        x: 5102
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52e8ddcc23e97140800000000000000
+      internalID: 4718051866218914395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_4
+      rect:
+        serializedVersion: 2
+        x: 6803
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7813881071fb97c90800000000000000
+      internalID: -7171490826079948409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_5
+      rect:
+        serializedVersion: 2
+        x: 8504
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aba29639d258d20800000000000000
+      internalID: 3280078014757124728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_6
+      rect:
+        serializedVersion: 2
+        x: 10205
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483e0d464d2b5b710800000000000000
+      internalID: 1708468258951193476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_7
+      rect:
+        serializedVersion: 2
+        x: 11906
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0b4ea259f71d6a0800000000000000
+      internalID: -6426214914634501912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_8
+      rect:
+        serializedVersion: 2
+        x: 13607
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb112d5fc3b8062c0800000000000000
+      internalID: -4440396138648825412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_9
+      rect:
+        serializedVersion: 2
+        x: 15308
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549eb21868dbeed50800000000000000
+      internalID: 6768555675374840133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_10
+      rect:
+        serializedVersion: 2
+        x: 17009
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253884f04acd02ee0800000000000000
+      internalID: -1287786896238804142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_11
+      rect:
+        serializedVersion: 2
+        x: 18710
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01321b1e962924c60800000000000000
+      internalID: 7800958488014824208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_12
+      rect:
+        serializedVersion: 2
+        x: 20411
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fd48865e8ae20e0800000000000000
+      internalID: -2292709457030488314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_13
+      rect:
+        serializedVersion: 2
+        x: 22112
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d13c3e7c1a2886b0800000000000000
+      internalID: -5293935060108693033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_14
+      rect:
+        serializedVersion: 2
+        x: 23813
+        y: 0
+        width: 1703
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897c8ddd73a3c3b40800000000000000
+      internalID: 5421272063066818456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_high_anim (1)_15
+      rect:
+        serializedVersion: 2
+        x: 25514
+        y: 0
+        width: 1702
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27de7618607617f90800000000000000
+      internalID: -6957666671672169102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_high_anim (1)_0: -5977899039348984109
+      fire_high_anim (1)_1: 3900138594965116717
+      fire_high_anim (1)_10: -1287786896238804142
+      fire_high_anim (1)_11: 7800958488014824208
+      fire_high_anim (1)_12: -2292709457030488314
+      fire_high_anim (1)_13: -5293935060108693033
+      fire_high_anim (1)_14: 5421272063066818456
+      fire_high_anim (1)_15: -6957666671672169102
+      fire_high_anim (1)_2: -3023528254204614418
+      fire_high_anim (1)_3: 4718051866218914395
+      fire_high_anim (1)_4: -7171490826079948409
+      fire_high_anim (1)_5: 3280078014757124728
+      fire_high_anim (1)_6: 1708468258951193476
+      fire_high_anim (1)_7: -6426214914634501912
+      fire_high_anim (1)_8: -4440396138648825412
+      fire_high_anim (1)_9: 6768555675374840133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

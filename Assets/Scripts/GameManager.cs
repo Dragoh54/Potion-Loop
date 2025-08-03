@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     [field: SerializeField] public PotionManager PotionManager { get; private set; }
     [field: SerializeField] public RecipeBook RecipeBook { get; private set; }
     [field: SerializeField] public List<Recipe> PresentRecipes { get; private set; }
-    [field: SerializeField] public List<RewardIngredient> RewardIngredients { get; private set; }
+    //[field: SerializeField] public List<RewardIngredient> RewardIngredients { get; private set; }
     [field: SerializeField] public PotionSpawner PotionSpawner { get; private set; }
 
     [SerializeField] private AudioClip[] _customerEntranceSounds;  
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             return;
         }
         
-        RewardIngredients[_currentCustomer % 3].Award();
+        //RewardIngredients[_currentCustomer % 3].Award();
         ChangeCustomerLogical();
     }
 
@@ -96,15 +96,15 @@ public class GameManager : MonoBehaviour
 
         if (_currentEra == Text.storyCards.Count - 1)
         {
-            UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
+            UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra]);
 
             return;
         }
 
-        RewardIngredients.ForEach(ingredient => ingredient.Hide());
+        //RewardIngredients.ForEach(ingredient => ingredient.Hide());
         RecipeBook.RecipePages.ForEach(recipePage => recipePage.ChangeRecipe());
 
-        UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
+        UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra]);
     }
 
     private IEnumerator RestartGame()

@@ -8,7 +8,7 @@
         MoonRose = 3,
         Sugar = 4,
         Salt = 5,
-        DruidicMushRoom = 6,
+        DruidicMushrooms = 6,
         Pearl = 7,
         SlimeJelly = 8,
         CrushedUnicornHorn = 9,

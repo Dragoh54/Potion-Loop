@@ -1,3 +1,4 @@
+using System.Text;
 using TMPro;
 using UnityEngine;
 
@@ -33,7 +34,7 @@ public class RecipePage : MonoBehaviour
         var currentIngredient = 0;
         foreach (var item in CurrentRecipe.Ingredients)
         {
-            SetText(Ingredients[currentIngredient], item.ToString());
+            SetText(Ingredients[currentIngredient], ProduceIngredientText(item.ToString()));
 
             currentIngredient++;
         }
@@ -47,12 +48,29 @@ public class RecipePage : MonoBehaviour
         textElement.text = "• " + text;
     }
 
-    private string ProduceFireLevelText() => CurrentRecipe.RequiredFireLevel.ToString() + "fire level";
+    private string ProduceIngredientText(string text)
+    {
+        var output = new StringBuilder();
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            if (text[i] >= 'A' && text[i] <= 'Z')
+            {
+                output.Append(' ');
+            }
+
+            output.Append(text[i]);
+        }
+
+        return output.ToString();
+    }
+
+    private string ProduceFireLevelText() => CurrentRecipe.RequiredFireLevel.ToString() + " fire level";
 
     private string ProduceRotationsText()
     {
-        var rotationsText = "Stir ";
-        rotationsText += CurrentRecipe.IsRightDirection ? "clockwise ": "counter-clockwise ";
+        var rotationsText = "Stir";
+        rotationsText += CurrentRecipe.IsRightDirection ? " clockwise ": " counter-clockwise ";
 
         rotationsText += CurrentRecipe.AmountOfRotations + " times";
 

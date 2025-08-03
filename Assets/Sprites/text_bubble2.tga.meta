@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2957b3458f31ebd42b8501b23217fef2
+guid: 47e508b1e6745ff4789d5adabb6bea0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5286224319263565573
-    second: witch_medieval_0
+      213: 46850844116596140
+    second: text_bubble2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: witch_medieval_0
+      name: text_bubble2_0
       rect:
         serializedVersion: 2
-        x: 46
+        x: 0
         y: 0
-        width: 900
-        height: 1529
+        width: 786
+        height: 488
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5076cb0c2017c5940800000000000000
-      internalID: 5286224319263565573
+      spriteID: ca53ff0389276a000800000000000000
+      internalID: 46850844116596140
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6300c2976e36f174eba67db3dc001b38
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      witch_medieval_0: 5286224319263565573
+      text_bubble2_0: 46850844116596140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

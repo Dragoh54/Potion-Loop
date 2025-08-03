@@ -14,19 +14,19 @@ public class UIManager : MonoBehaviour
     public UnityEvent OnEraChanged;
     public UnityEvent OnDialogEnded;
 
-    public void ChangeEra(int currentEra, string storyText)
+    public void ChangeEra(int currentEra, StoryText storyText)
     {
         StartCoroutine("DisplayStoryCard", storyText);
 
         WindowVisualizer.ChangeSprite(currentEra);
     }
 
-    public IEnumerator DisplayStoryCard(string storyText)
+    public IEnumerator DisplayStoryCard(StoryText storyText)
     {
         StoryCard.gameObject.SetActive(true);
-        StoryCard.DisplayText(storyText);
+        StoryCard.DisplayText(storyText.text);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(storyText.time);
 
         StoryCard.gameObject.SetActive(false);
         OnEraChanged?.Invoke();

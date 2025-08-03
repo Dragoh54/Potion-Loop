@@ -112,9 +112,21 @@
     }
   ],
   "storyCards": [
-    { "text": "Story card 1" },
-    { "text": "Story card 2" },
-    { "text": "Story card 3" },
-    { "text": "Story card 4" }
+    {
+      "time": 20,
+      "text": "\\t1311 AD.\\n\\tI am a potion craftsman. Some even say that I am the best there is. Although I am a human, my most common customers are magical creatures of every kind. Fair to say, they are the ones who need it the most.\\n\\tMy ingredients are not easy to come by so one night I’ve ventured outside of town to resupply. There I stumbled upon an old house. It was somewhat odd, especially the sign nailed to a wall: \"Enter at your own risk. The first one to go through that door – becomes a new keeper of this place\".\\n\\tI dared to enter.\\n\\tAfter a while I figured that the house was stuck in time. Centuries go by but I didn’t age for a second. I could live forever, but the catch is that if I leave through that door, I may never come back inside again.\\n\\tNow I am trying to produce a recipe for elixir of life, so I could leave the house and still live forever. My old customers still visit me, bring me supplies, and in return I give them potions."
+    },
+    {
+      "time": 5,
+      "text": "\t1867 AD.\n\tHelp from my customers was invaluable, but all my experiments failed. The idea of death haunts me. I still haven’t tried everything though so I will keep on trying."
+    },
+    {
+      "time": 10,
+      "text": "\t2025 AD.\n\tTime goes by but all my studies are fruitless. I notice that with each passing day I am more and more drawn to the only window in the house, staring at the lights of the city in which I cannot recognize my home town anymore.\n\tI start to wonder if what I was doing for the last centuries was worth it. Maybe death is what gives life meaning after all."
+    },
+    {
+      "time": 10,
+      "text": "\tI left the house.\n\n\tDoor closed shut after me, but I didn’t even turn around.\n\tMy eyes were fixed on the city below me.\n\tIn that fleeting moment I felt more alive than I did for the last 7 centuries."
+    }
   ]
 }
