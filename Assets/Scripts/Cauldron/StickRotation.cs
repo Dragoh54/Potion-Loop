@@ -24,6 +24,7 @@ namespace Cauldron
         public Transform cauldronCenter;
         public float rotationSpeedMultiplier = 1f;
         private float _radius = 0f;
+        public float radiusOffset = 0.5f;
         
         public float xOffset = 1.4f;
         public float yOffset = 0.4f;
@@ -39,7 +40,7 @@ namespace Cauldron
             _prevAngel = GetAngle();
             
             var dir = transform.position - cauldronCenter.position;
-            _radius = dir.magnitude;
+            _radius = dir.magnitude * radiusOffset;
         }
 
         private void Update()
@@ -65,17 +66,19 @@ namespace Cauldron
             _animator.SetBool("IsMoving", true);
             var currentAngle = GetAngle();
             var deltaAngle =  Mathf.DeltaAngle(_prevAngel, currentAngle);
+            deltaAngle = Mathf.Clamp(deltaAngle, -10f, 10f);
+
             
             _angle += deltaAngle * rotationSpeedMultiplier;
             
-            var angleRad = _angle * Mathf.Deg2Rad;
-            var x = Mathf.Cos(angleRad) * _radius * xOffset;
-            var y = Mathf.Sin(angleRad) * _radius * yOffset;
+             var angleRad = _angle * Mathf.Deg2Rad;
+             var x = Mathf.Cos(angleRad) * _radius * xOffset;
+             var y = Mathf.Sin(angleRad) * _radius * yOffset;
             
-            var newPosition = new Vector3(x, y, 0) + cauldronCenter.position;
-            transform.position = newPosition;
+             var newPosition = new Vector3(x, y, 0) + cauldronCenter.position;
+             transform.position = newPosition;
             
-            //transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * 10f);
+            //transform.position = Vector3.Lerp(transform.position, newPosition, Time.deltaTime * stirringSpeed);
             
             if (_angle >= FullRotationDegree)
             {
@@ -98,6 +101,7 @@ namespace Cauldron
         private void OnMouseDown()
         {
             _isStritting = true;
+            _prevAngel = GetAngle();
         }
 
         private void OnMouseUp()

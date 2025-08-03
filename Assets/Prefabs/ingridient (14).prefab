@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 3244301053123524712, guid: d4e491832c9e13b46bd5961e47ef0a3e, type: 3}
+  m_Sprite: {fileID: -207009062644569365, guid: 6c7682e64a8ac6a45b070d2925708a85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,7 +184,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.38, y: 4.08}
+    oldSize: {x: 4.39, y: 4.08}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -204,5 +204,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff6358a82964746bf3c1c27b008d63a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickedUpWaterSprite: {fileID: -3339036410136374175, guid: a0e09290846733e47845b74eae245565, type: 3}
-  stayedWaterSprite: {fileID: 3244301053123524712, guid: d4e491832c9e13b46bd5961e47ef0a3e, type: 3}
+  pickedUpWaterSprite: {fileID: -6620354363416785835, guid: 3c5feb1a4024a744cb5f7539683294cb, type: 3}
+  stayedWaterSprite: {fileID: -207009062644569365, guid: 6c7682e64a8ac6a45b070d2925708a85, type: 3}
