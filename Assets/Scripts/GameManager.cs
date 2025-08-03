@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 
     private void ChangeCustomerLogical()
     {
-        if (_currentCustomer == PresentRecipes.Count - 1)
+        if (_currentEra == Text.storyCards.Count - 1)
         {
             UIManager.ShowGameEndScreen();
             StartCoroutine("RestartGame");
@@ -93,7 +93,14 @@ public class GameManager : MonoBehaviour
     private void ChangeEraLogical()
     {
         _currentEra++;
-        
+
+        if (_currentEra == Text.storyCards.Count - 1)
+        {
+            UIManager.ChangeEra(_currentEra, Text.storyCards[_currentEra].text);
+
+            return;
+        }
+
         RewardIngredients.ForEach(ingredient => ingredient.Hide());
         RecipeBook.RecipePages.ForEach(recipePage => recipePage.ChangeRecipe());
 
